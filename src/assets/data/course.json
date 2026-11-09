@@ -1,0 +1,204 @@
+{
+  "courses": [
+    {
+      "course_code": "CS1100",
+      "course_name": "Introduction to Computer Science",
+      "credits": 1
+    },
+    {
+      "course_code": "ENED1100",
+      "course_name": "Foundations of Engineering Design Thinking I (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "ENGL1001",
+      "course_name": "English Composition (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "MATH1061",
+      "course_name": "Calculus I (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "CHEM1040",
+      "course_name": "General Chemistry I",
+      "credits": 4
+    },
+    {
+      "course_code": "CHEM1040L",
+      "course_name": "General Chemistry Laboratory I",
+      "credits": 1
+    },
+    {
+      "course_code": "CS1021C",
+      "course_name": "Computer Science 1 (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "ENED1120",
+      "course_name": "Foundations of Engineering Design Thinking II",
+      "credits": 3
+    },
+    {
+      "course_code": "MATH1062",
+      "course_name": "Calculus II (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "PD1011",
+      "course_name": "Introduction to COOP for CEAS (C- min)",
+      "credits": 1
+    },
+    {
+      "course_code": "CS2011",
+      "course_name": "Introduction to Computer Systems (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS2023",
+      "course_name": "Python Programming (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS2028C",
+      "course_name": "Data Structures (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "IT2030C",
+      "course_name": "Information Security and Assurance",
+      "credits": 3
+    },
+    {
+      "course_code": "MATH2076",
+      "course_name": "Linear Algebra (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS2071",
+      "course_name": "Discrete Computational Structures (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS3003",
+      "course_name": "Programming Languages",
+      "credits": 3
+    },
+    {
+      "course_code": "ENGL2089",
+      "course_name": "Intermediate Composition",
+      "credits": 3
+    },
+    {
+      "course_code": "PD2050",
+      "course_name": "Mid-Curricular Co-op Community for Engineering",
+      "credits": 1
+    },
+    {
+      "course_code": "STAT2037",
+      "course_name": "Probability and Statistics I (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "COMM1071",
+      "course_name": "Introduction to Effective Speaking",
+      "credits": 3
+    },
+    {
+      "course_code": "CS4071",
+      "course_name": "Design and Analysis of Algorithms (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS4092",
+      "course_name": "Database Design and Development (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE3093C",
+      "course_name": "Software Engineering (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "CS4033",
+      "course_name": "Artificial Intelligence: Principles and Applications",
+      "credits": 3
+    },
+    {
+      "course_code": "CS4065",
+      "course_name": "Computer Networks and Networked Computing",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE4029",
+      "course_name": "Operating Systems & Systems Programming (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "ENGL4092",
+      "course_name": "Technical and Scientific Writing",
+      "credits": 3
+    },
+    {
+      "course_code": "CS5001",
+      "course_name": "Computer Science Senior Design I (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "CS5170",
+      "course_name": "The Theory of Formal Languages and Automata",
+      "credits": 3
+    },
+    {
+      "course_code": "CS5002",
+      "course_name": "Computer Science Senior Design II (C- min)",
+      "credits": 3
+    },
+    {
+      "credits": 0,
+      "course_name": "Co-op for CEAS (First Semester Experience)",
+      "course_code": "COOP2011"
+    },
+    {
+      "credits": 0,
+      "course_name": "Co-op for CEAS (Second Semester Experience)",
+      "course_code": "COOP2012"
+    },
+    {
+      "credits": 0,
+      "course_name": "Co-op for CEAS (Third Semester Experience)",
+      "course_code": "COOP3011"
+    },
+    {
+      "credits": 0,
+      "course_name": "COOP for CEAS (Fourth Semester Experience)",
+      "course_code": "COOP4011"
+    },
+    {
+      "credits": 0,
+      "course_name": "Co-op for CEAS (Fifth Semester Experience)",
+      "course_code": "COOP4012"
+    },
+    {
+      "credits": 3,
+      "course_name": "Biology I: Molecules, Cells and the Foundation of Life",
+      "course_code": "BIOL1081"
+    },
+    {
+      "credits": 1,
+      "course_name": "Biology I Laboratory",
+      "course_code": "BIOL1081L"
+    },
+    {
+      "credits": 4,
+      "course_name": "College Physics I (Calculus-based)",
+      "course_code": "PHYS2001"
+    },
+    {
+      "credits": 1,
+      "course_name": "College Physics Lab I (Calculus-based)",
+      "course_code": "PHYS2001L"
+    }
+  ]
+}

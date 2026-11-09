@@ -1,0 +1,180 @@
+{
+  "requirements": [
+    {
+      "semester": 1,
+      "requirement_id": "ENED1100"
+    },
+    {
+      "semester": 1,
+      "requirement_id": "CS1100"
+    },
+    {
+      "semester": 1,
+      "requirement_id": "BSCS_SCI_ELECTIVE"
+    },
+    {
+      "semester": 1,
+      "requirement_id": "ENGL1001"
+    },
+    {
+      "semester": 1,
+      "requirement_id": "MATH1061"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "CHEM1040"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "CHEM1040L"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "CS1021C"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "ENED1120"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "MATH1062"
+    },
+    {
+      "semester": 2,
+      "requirement_id": "PD1011"
+    },
+    {
+      "semester": 3,
+      "requirement_id": "COOP2011"
+    },
+    {
+      "semester": 4,
+      "requirement_id": "CS2011"
+    },
+    {
+      "semester": 4,
+      "requirement_id": "CS2023"
+    },
+    {
+      "semester": 4,
+      "requirement_id": "CS2028C"
+    },
+    {
+      "semester": 4,
+      "requirement_id": "IT2030C"
+    },
+    {
+      "semester": 4,
+      "requirement_id": "MATH2076"
+    },
+    {
+      "semester": 5,
+      "requirement_id": "COOP2012"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "CS2071"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "CS3003"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "ENGL2089"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "PD2050"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "STAT2037"
+    },
+    {
+      "semester": 7,
+      "requirement_id": "COOP3011"
+    },
+    {
+      "semester": 8,
+      "requirement_id": "COMM1071"
+    },
+    {
+      "semester": 8,
+      "requirement_id": "CS4071"
+    },
+    {
+      "semester": 8,
+      "requirement_id": "CS4092"
+    },
+    {
+      "semester": 8,
+      "requirement_id": "EECE3093C"
+    },
+    {
+      "semester": 9,
+      "requirement_id": "COOP4011"
+    },
+    {
+      "semester": 10,
+      "requirement_id": "CS4033"
+    },
+    {
+      "semester": 10,
+      "requirement_id": "CS4065"
+    },
+    {
+      "semester": 10,
+      "requirement_id": "EECE4029"
+    },
+    {
+      "semester": 10,
+      "requirement_id": "ENGL4092"
+    },
+    {
+      "semester": 11,
+      "requirement_id": "COOP4012"
+    },
+    {
+      "semester": 12,
+      "requirement_id": "CS5001"
+    },
+    {
+      "semester": 12,
+      "requirement_id": "CS5170"
+    },
+    {
+      "semester": 13,
+      "requirement_id": "CS5002"
+    },
+    {
+      "semester": 6,
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6"
+    },
+    {
+      "semester": 8,
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8"
+    },
+    {
+      "semester": 10,
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "semester": 12,
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "semester": 12,
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "semester": 13,
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "semester": 13,
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+    }
+  ]
+}

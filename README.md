@@ -1,43 +1,49 @@
-# Svelte + Vite
+# CS5167 User Interface Project 2: Catalyst Degree Audit Redesign
 
-This template should help get you started developing with Svelte in Vite.
+## Data Model:
 
-## Recommended IDE Setup
+### Assumptions:
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+- All cohorts follow the same plan
+- More to follow...
 
-## Need an official Svelte framework?
+`plan.json`
+| Column | Type | Nullable |
+|---|---|---|
+| `plan_code` | `text` | No |
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+`src/assets/data/plan.json` is a list of plans. A plan currently only consists of a plan code. The plan code must be unique.
 
-## Technical considerations
+`course.json`
+| Column | Type | Nullable |
+|---|---|---|
+| `course_code` | `text` | No |
+| `course_name` | `text` | No |
+| `credits` | `integer` | No |
 
-**Why use this over SvelteKit?**
+`src/assets/data/course.json` is a list of course data, each course includes a unique course code, a course name, and the number of credit hours. The course code must be unique and acts the id/key for the table
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+`requirement.json`
+| Column | Type | Nullable |
+|---|---|---|
+| `semester` | `integer` | No |
+| `requirement_id` | `text` | No |
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+`src/assets/data/requirement.json` is a list of abstract requirements for a given plan. Requirements can be a course (in which case the requirement id should be the course code) or an elective (in which case the requirement should be a unique descriptive string in screaming snake case for the title of the elective, prepended with the plan code). The requirement ids must be unique. Each requirement also includes a semester field for the semester that the requirement is intended to be taken, this is represented as an integer that starts counting from 1.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+`requirement_course.json`
+| Column | Type | Nullable |
+|---|---|---|
+| `course_code` | `text` | No |
+| `requirement_id` | `text` | No |
 
-**Why include `.vscode/extensions.json`?**
+`src/assets/data/requirement_course.json` acts as a join table between requirements and actual courses. For normal "core" courses, this is just a link between the requirement id and the course code. For electives, there may be multiple entries for a given requirement (still linking to a course code, the requirement id will just show up more than once). The key for this "table" is a compound key between the requirement id and course code.
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+`plan_requirement.json`
+| Column | Type | Nullable |
+|---|---|---|
+| `plan_code` | `text` | No |
+| `requirement_id` | `text` | No |
 
-**Why enable `checkJs` in the JS template?**
+`src/assets/data/plan_requirement.json` is a list of requirements for a given plan. This "table" acts as a join table between a plan and a requirement. The respective ids should be used for each side. The key for this table is a compound key made up of the plan code and requirement id.
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```

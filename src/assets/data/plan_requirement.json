@@ -1,0 +1,180 @@
+{
+  "plan_requirements": [
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "ENED1100"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS1100"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_SCI_ELECTIVE"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "ENGL1001"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "MATH1061"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CHEM1040"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CHEM1040L"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS1021C"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "ENED1120"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "MATH1062"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "PD1011"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COOP2011"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS2011"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS2023"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS2028C"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "IT2030C"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "MATH2076"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COOP2012"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS2071"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS3003"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "ENGL2089"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "PD2050"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "STAT2037"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COOP3011"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COMM1071"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS4071"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS4092"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "EECE3093C"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COOP4011"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS4033"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS4065"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "EECE4029"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "ENGL4092"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "COOP4012"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS5001"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS5170"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "CS5002"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "plan_code": "BSCS",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+    }
+  ]
+}
