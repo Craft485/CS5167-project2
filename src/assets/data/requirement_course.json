@@ -1,0 +1,156 @@
+{
+  "requirement_course": [
+    {
+      "course_code": "ENED1100",
+      "requirement_id": "ENED1100"
+    },
+    {
+      "course_code": "PHYS2001",
+      "requirement_id": "BSCS_SCI_ELECTIVE"
+    },
+    {
+      "course_code": "CS1100",
+      "requirement_id": "CS1100"
+    },
+    {
+      "course_code": "ENGL1001",
+      "requirement_id": "ENGL1001"
+    },
+    {
+      "course_code": "MATH1061",
+      "requirement_id": "MATH1061"
+    },
+    {
+      "course_code": "CHEM1040",
+      "requirement_id": "CHEM1040"
+    },
+    {
+      "course_code": "CHEM1040L",
+      "requirement_id": "CHEM1040L"
+    },
+    {
+      "course_code": "CS1021C",
+      "requirement_id": "CS1021C"
+    },
+    {
+      "course_code": "ENED1120",
+      "requirement_id": "ENED1120"
+    },
+    {
+      "course_code": "MATH1062",
+      "requirement_id": "MATH1062"
+    },
+    {
+      "course_code": "PD1011",
+      "requirement_id": "PD1011"
+    },
+    {
+      "course_code": "COOP2011",
+      "requirement_id": "COOP2011"
+    },
+    {
+      "course_code": "CS2011",
+      "requirement_id": "CS2011"
+    },
+    {
+      "course_code": "CS2023",
+      "requirement_id": "CS2023"
+    },
+    {
+      "course_code": "CS2028C",
+      "requirement_id": "CS2028C"
+    },
+    {
+      "course_code": "IT2030C",
+      "requirement_id": "IT2030C"
+    },
+    {
+      "course_code": "MATH2076",
+      "requirement_id": "MATH2076"
+    },
+    {
+      "course_code": "COOP2012",
+      "requirement_id": "COOP2012"
+    },
+    {
+      "course_code": "CS2071",
+      "requirement_id": "CS2071"
+    },
+    {
+      "course_code": "CS3003",
+      "requirement_id": "CS3003"
+    },
+    {
+      "course_code": "ENGL2089",
+      "requirement_id": "ENGL2089"
+    },
+    {
+      "course_code": "PD2050",
+      "requirement_id": "PD2050"
+    },
+    {
+      "course_code": "STAT2037",
+      "requirement_id": "STAT2037"
+    },
+    {
+      "course_code": "COOP3011",
+      "requirement_id": "COOP3011"
+    },
+    {
+      "course_code": "COMM1071",
+      "requirement_id": "COMM1071"
+    },
+    {
+      "course_code": "CS4071",
+      "requirement_id": "CS4071"
+    },
+    {
+      "course_code": "CS4092",
+      "requirement_id": "CS4092"
+    },
+    {
+      "course_code": "EECE3093C",
+      "requirement_id": "EECE3093C"
+    },
+    {
+      "course_code": "COOP4011",
+      "requirement_id": "COOP4011"
+    },
+    {
+      "course_code": "CS4033",
+      "requirement_id": "CS4033"
+    },
+    {
+      "course_code": "CS4065",
+      "requirement_id": "CS4065"
+    },
+    {
+      "course_code": "EECE4029",
+      "requirement_id": "EECE4029"
+    },
+    {
+      "course_code": "ENGL4092",
+      "requirement_id": "ENGL4092"
+    },
+    {
+      "course_code": "COOP4012",
+      "requirement_id": "COOP4012"
+    },
+    {
+      "course_code": "CS5001",
+      "requirement_id": "CS5001"
+    },
+    {
+      "course_code": "CS5170",
+      "requirement_id": "CS5170"
+    },
+    {
+      "course_code": "CS5002",
+      "requirement_id": "CS5002"
+    },
+    {
+      "course_code": "PHYS2001L",
+      "requirement_id": "BSCS_SCI_ELECTIVE"
+    }
+  ]
+}
