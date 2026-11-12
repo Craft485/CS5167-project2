@@ -2,6 +2,9 @@
   "plans": [
     {
       "plan_code": "BSCS"
+    },
+    {
+      "plan_code": "BSCE"
     }
   ]
 }

@@ -199,6 +199,101 @@
       "credits": 1,
       "course_name": "College Physics Lab I (Calculus-based)",
       "course_code": "PHYS2001L"
+    },
+    {
+      "course_code": "EECE1100",
+      "course_name": "Introduction to EECS for EE, CompE, and EET Majors",
+      "credits": 1
+    },
+    {
+      "course_code": "EECE1080C",
+      "course_name": "Programming for ECE (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "EECE2051C",
+      "course_name": "Network Analysis (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "EECE2060C",
+      "course_name": "Digital Design (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "EECE2065",
+      "course_name": "Differential Equations and Laplace Transforms (C- min)",
+      "credits": 2
+    },
+    {
+      "course_code": "MATH2063",
+      "course_name": "Multivariable Calculus",
+      "credits": 4
+    },
+    {
+      "course_code": "PHYS2076",
+      "course_name": "Semiconductor Physics for Engineers",
+      "credits": 4
+    },
+    {
+      "course_code": "EECE2070",
+      "course_name": "Electronics I (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE2070L",
+      "course_name": "Electronics Laboratory I (C- min)",
+      "credits": 1
+    },
+    {
+      "course_code": "EECE2080C",
+      "course_name": "Engineering Data Structures (C- min)",
+      "credits": 2
+    },
+    {
+      "course_code": "EECE3065",
+      "course_name": "Signals and Systems (C- min)",
+      "credits": 4
+    },
+    {
+      "course_code": "EECE3026",
+      "course_name": "Introduction to Computer Architecture & Organization (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE3071",
+      "course_name": "Electronics II",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE3071L",
+      "course_name": "Electronics Laboratory II",
+      "credits": 1
+    },
+    {
+      "course_code": "EECE4038C",
+      "course_name": "Embedded System Design",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE4040",
+      "course_name": "Advanced Data Structures and Algorithms (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "ENED3066",
+      "course_name": "Engineering Statistics (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE5031",
+      "course_name": "Computer Engineering Senior Design I (C- min)",
+      "credits": 3
+    },
+    {
+      "course_code": "EECE5032",
+      "course_name": "Computer Engineering Senior Design II (C- min)",
+      "credits": 3
     }
   ]
 }
