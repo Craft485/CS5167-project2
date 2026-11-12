@@ -175,6 +175,198 @@
     {
       "plan_code": "BSCS",
       "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE1100"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "ENED1100"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "ENGL1001"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "MATH1061"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "PHYS2001"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "PHYS2001L"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "CHEM1040"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "CHEM1040L"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE1080C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "ENED1120"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "MATH1062"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "PD1011"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "COOP2011"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2051C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2060C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2065"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "MATH2063"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "PHYS2076"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "COOP2012"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_COMM1071"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2070"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2070L"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE2080C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE3065"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_MATH2076"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "COOP3011"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_CS2071"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE3026"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE3071"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE3071L"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE3093C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_PD2050"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "COOP4011"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE4029"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE4038C"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE4040"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "ENGL4092"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "COOP4012"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE5031"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "EECE5032"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_12"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "plan_code": "BSCE",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_13"
     }
   ]
 }

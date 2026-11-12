@@ -151,6 +151,110 @@
     {
       "course_code": "PHYS2001L",
       "requirement_id": "BSCS_SCI_ELECTIVE"
+    },
+    {
+      "course_code": "EECE1100",
+      "requirement_id": "EECE1100"
+    },
+    {
+      "course_code": "PHYS2001",
+      "requirement_id": "PHYS2001"
+    },
+    {
+      "course_code": "PHYS2001L",
+      "requirement_id": "PHYS2001L"
+    },
+    {
+      "course_code": "EECE1080C",
+      "requirement_id": "EECE1080C"
+    },
+    {
+      "course_code": "EECE2051C",
+      "requirement_id": "EECE2051C"
+    },
+    {
+      "course_code": "EECE2060C",
+      "requirement_id": "EECE2060C"
+    },
+    {
+      "course_code": "EECE2065",
+      "requirement_id": "EECE2065"
+    },
+    {
+      "course_code": "MATH2063",
+      "requirement_id": "MATH2063"
+    },
+    {
+      "course_code": "PHYS2076",
+      "requirement_id": "PHYS2076"
+    },
+    {
+      "course_code": "COMM1071",
+      "requirement_id": "BSCE_COMM1071"
+    },
+    {
+      "course_code": "EECE2070",
+      "requirement_id": "EECE2070"
+    },
+    {
+      "course_code": "EECE2070L",
+      "requirement_id": "EECE2070L"
+    },
+    {
+      "course_code": "EECE2080C",
+      "requirement_id": "EECE2080C"
+    },
+    {
+      "course_code": "EECE3065",
+      "requirement_id": "EECE3065"
+    },
+    {
+      "course_code": "MATH2076",
+      "requirement_id": "BSCE_MATH2076"
+    },
+    {
+      "course_code": "CS2071",
+      "requirement_id": "BSCE_CS2071"
+    },
+    {
+      "course_code": "EECE3026",
+      "requirement_id": "EECE3026"
+    },
+    {
+      "course_code": "EECE3071",
+      "requirement_id": "EECE3071"
+    },
+    {
+      "course_code": "EECE3071L",
+      "requirement_id": "EECE3071L"
+    },
+    {
+      "course_code": "PD2050",
+      "requirement_id": "BSCE_PD2050"
+    },
+    {
+      "course_code": "EECE4038C",
+      "requirement_id": "EECE4038C"
+    },
+    {
+      "course_code": "EECE4040",
+      "requirement_id": "EECE4040"
+    },
+    {
+      "course_code": "EECE5031",
+      "requirement_id": "EECE5031"
+    },
+    {
+      "course_code": "EECE5032",
+      "requirement_id": "EECE5032"
+    },
+    {
+      "course_code": "STAT2037",
+      "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10"
+    },
+    {
+      "course_code": "ENED3066",
+      "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10"
     }
   ]
 }
