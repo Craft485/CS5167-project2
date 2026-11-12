@@ -3,297 +3,538 @@
     {
       "course_code": "CS1100",
       "course_name": "Introduction to Computer Science",
-      "credits": 1
+      "credits": 1,
+      "description": "1. Structure of the CS curriculum and program requirements in EECS department, Overview of student groups and extra-curricular activities.\n2. What does a programmer do in a typical job and in a typical career? What does it mean to write computer code?\na. Harnessing the power of computers and of large datasets\nb. Requires creativity, insights about human needs, knowledge about computers, and knowledge a out application domains.\nc. Building abstractions by connecting simpler elements to larger conceptual entities.\nd. The enabler role of the computer science discipline.\n3. What is a computer program or an App?\na. Life-cycle and examples of Apps and small/large computer programs\nb. Courses in the CS curriculum that address various aspects of the program/App life-cycle.\n4. Connection of Mathematics, Statistics, Sciences, and other engineering disciplines with a career and education in computer science.\n5. Nature of Internet and its relationship to various aspects of computer science and also to various courses in CS curriculum.\n6. Application domains and computer science’s impacts in these domains:\na. Everyday business operations\nb. Finance and banking - Prerequisite Definition: To take this course you must: Be enrolled in one of these Plans EASE-BX, FEP-BX, CS-BSCS, CS20-BS. Be a First Year Student.",
+      "prerequisites": []
     },
     {
       "course_code": "ENED1100",
       "course_name": "Foundations of Engineering Design Thinking I (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "This course introduces you to the CEAS professions through multidisciplinary, societally relevant content. You will learn how to develop approaches for comprehending engineering systems and generating and exploring creative ideas and alternatives. You will be introduced to concepts in creativity, innovation, engineering fundamentals, and problem solving methodologies. You will learn, through experience, the process of design and analysis in engineering including how to work effectively on a team. Finally, you will develop skills in project management, sustainability, written, oral and graphical communication, logical thinking, and modern engineering tools (e.g., Excel, Python, LabVIEW, MATLAB, Visual Basic, CAD, Rapid Prototyping). - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1020 min grade C-, or MATH1021 min grade C-, or MATH1022 min grade C-, or MATH1023 min grade C-, or MATH1024 min grade C-, or MATH1026 min grade C-, or MATH1060 min grade C-, or MATH1061 min grade C-. Taken one of these tests ACT MATH min score of 26, or ALEKS MATH min score of 61, or SAT MATH min score of 670, or SAT MATHS min score of 700, or UCPT MATH min score of 550.",
+      "prerequisites": [
+        "MATH1061"
+      ]
     },
     {
       "course_code": "ENGL1001",
       "course_name": "English Composition (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "English Composition 1001 is a writing-centered course that emphasizes the careful reading, analytical thinking, and persuasive strategies inherent in researching and writing within an academic community. Students learn that rhetorical knowledge is the basis of composing while learning to write with purpose, audience, context, and conventions in mind. Students develop rigorous academic research practices: how to locate and evaluate primary and secondary sources relevant to their line of inquiry and position their own ideas in conversation with public writing. Students also engage in regular self-reflection: articulating what they know, what they can do, and how to apply their knowledge and skills in various contexts.",
+      "prerequisites": []
     },
     {
       "course_code": "MATH1061",
       "course_name": "Calculus I (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "The first part of a three semester sequence of courses on calculus (MATH 1061, 1062, 2063) for students in engineering and science. Topics covered include functions, limits and continuity, differentiation, applications of the derivative, optimization, antiderivatives, fundamental theorem of calculus, definite and indefinite integrals. - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1022 min grade C-, or MATH1024 min grade C-, or MATH1026 min grade C-, or MATH1059 min grade C-. Taken one of these tests ACT MATH min score of 26, or ALEKS MATH min score of 76, or SAT MATHS min score of 610, or SAT MATH min score of 710, or UCPT MATH min score of 750.",
+      "prerequisites": []
     },
     {
       "course_code": "CHEM1040",
       "course_name": "General Chemistry I",
-      "credits": 4
+      "credits": 4,
+      "description": "This course is intended for students who expect to pursue further coursework in science or engineering. It involves the study of chemical nomenclature, stoichiometry, atomic structure, bonding theories, thermochemistry, periodic properties, solution calculations, and the gas laws. High school chemistry with a C grade or better is required. - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1019 min grade C-, or MATH1020 min grade C-, or MATH1021 min grade C-, or MATH1023 min grade C-, or MATH1024 min grade C-, or MATH1026 min grade C-, or MATH1044 min grade C-, or MATH1061 min grade C-. Taken one of these tests ACT MATH min score of 22, or ALEKS MATH min score of 61, or SAT MATHS min score of 670, or SAT MATH min score of 670, or UCPT MATH min score of 500.",
+      "prerequisites": [
+        "MATH1061"
+      ]
     },
     {
       "course_code": "CHEM1040L",
       "course_name": "General Chemistry Laboratory I",
-      "credits": 1
+      "credits": 1,
+      "description": "Experimental work providing hands-on experience with concepts in fundamental chemistry, including chemical nomenclature, stoichiometry, thermochemistry, solution chemistry and related calculations, chemical bonding, and the gas laws, to accompany the corresponding lecture course CHEM1040. One laboratory period each week. The first offering of a two-part course sequence.",
+      "prerequisites": []
     },
     {
       "course_code": "CS1021C",
       "course_name": "Computer Science 1 (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "Introduction to computer science with emphasis upon structured and object-oriented programming, algorithm design, and problem-solving. Currently, C++ is used as the computer language. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1005C min grade C-, or CS2005C min grade C-, or ENED1021 min grade C-, or ENED1090 min grade C-, or ENED1100 min grade C-, or IT1090C min grade C-. Be enrolled in one of these Programs 20BAC, 20BC, 20CRT. Be enrolled in the following Plan CS-MIN.",
+      "prerequisites": [
+        "ENED1100"
+      ]
     },
     {
       "course_code": "ENED1120",
       "course_name": "Foundations of Engineering Design Thinking II",
-      "credits": 3
+      "credits": 3,
+      "description": "This course builds on the foundation developed in ENED 1100 by continuing to reinforce fundamental engineering/engineering technologies/CS competencies. You will continue to develop a holistic approach to integrating multiple disciplines to facilitate your ability to construct innovative and quantitatively rigorous engineering solutions. Finally, you will extend your skill development in project management, engineering fundamentals, sustainability, written, oral and graphical communication, logical thinking, and modern engineering tools (e.g., Excel, Python, LabVIEW, MATLAB, Visual Basic, CAD, Rapid Prototyping). - Prerequisite Definition: To take this course you must: Have taken the following Courses ENED1100 min grade C-,MATH1022 min grade C-, or MATH1024 min grade C-, or MATH1026 min grade C-, or MATH1044 min grade C-, or MATH1059 min grade C-, or MATH1060 min grade C-, or MATH1061 min grade C-. Taken one of these tests ACT MATH min score of 28, or ALEKS MATH min score of 70, or SAT MATH min score of 700, or SAT MATHS min score of 730, or UCPT MATH min score of 700.",
+      "prerequisites": [
+        "ENED1100",
+        "MATH1061"
+      ]
     },
     {
       "course_code": "MATH1062",
       "course_name": "Calculus II (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "The second part of a three semester sequence of courses on calculus (MATH 1061, 1062, 2063) for students in engineering and science. Topics covered include techniques of integration, applications of the integral, sequences and series, and vectors. - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1056 min grade C-, or MATH1060 min grade C-, or MATH1061 min grade C-.",
+      "prerequisites": [
+        "MATH1061"
+      ]
     },
     {
       "course_code": "PD1011",
       "course_name": "Introduction to COOP for CEAS (C- min)",
-      "credits": 1
+      "credits": 1,
+      "description": "This course is designed to introduce engineering and applied science students to the cooperative education (co-op) learning model and how it is executed through the Professional Practice Program. It will prepare students to maximize learning through and develop the strategies and necessary skills for effective participation in the Professional Practice Program. Completion of this course is required for participation in the Professional Practice Program. Course material will address specific engineering career topics and program requirements. - Prerequisite Definition: To take this course you must: Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": []
     },
     {
       "course_code": "CS2011",
       "course_name": "Introduction to Computer Systems (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Assembly language programming. Organization of the hardware including registers, memory, and microprocessors and I/O ports. Binary and hexadecimal arithmetic, assembler instructions, processor status (flags), program control, addressing modes. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CS-BSCS, CS-MIN.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "CS2023",
       "course_name": "Python Programming (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "This is a course in which students will learn to program using the Python programming language. Students will also learn the use of Python language and some existing Libraries for performing some AI related tasks.\nSophomore standing or higher is required. Students must be active participants in an EECS program to enroll in this course. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1005C min grade C-, or CS1021C min grade C-, or CS2005C min grade C-, or EECE1080C min grade C-, or ENED1021 min grade C-, or ENED1120 min grade C-. Be enrolled in the following Program 20CRT. Be enrolled in one of these Plans ISE-BSISE, CS-BSCS, CMPE-BSCOM, EE-BSEE, EET-BSEET, CS-MIN. Be at least a Sophomore.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE1080C",
+        "ENED1120"
+      ]
     },
     {
       "course_code": "CS2028C",
       "course_name": "Data Structures (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "1. Pointers and dynamic memory management with objects. 2. Designing of abstract data types, OO programming, and implementing ADTs. 3. Use of templates/generics and STL for container classes 4. Introduction to complexity analysis. Big O notation, asymptotic behavior. 5. Linked-lists: Use them to implement stacks and queues. 6. Implementation as ADTs using templates: Vectors, Lists, Stacks, Queues, Sets,\n- Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CS-BSCS, CYBR-C1, CS-MIN.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "IT2030C",
       "course_name": "Information Security and Assurance",
-      "credits": 3
+      "credits": 3,
+      "description": "An introduction to the various technical and administrative aspects of information security and assurance. This course provides the foundation for understanding the key issues associated with protecting information assets, determining the levels of protection and response to security incidents, and designing a consistent, reasonable information security system, with appropriate intrusion detection and reporting features.",
+      "prerequisites": []
     },
     {
       "course_code": "MATH2076",
       "course_name": "Linear Algebra (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Study of linear equations, matrices, Euclidean n-space and its subspaces, bases, dimension, coordinates, orthogonality, linear transformations, determinants, eigenvalues and eigenvectors, diagonalization. - Prerequisite Definition: To take this course you must: Have taken the following Course MATH1062 min grade C-.",
+      "prerequisites": [
+        "MATH1062"
+      ]
     },
     {
       "course_code": "CS2071",
       "course_name": "Discrete Computational Structures (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Three undergraduate credits. Introduces discrete mathematical topics in the context of CS: mathematical induction, sets, propositional logic, relations and functions, algorithm analysis, graph theory. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, CS-BSCS, CS-MIN.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "CS3003",
       "course_name": "Programming Languages",
-      "credits": 3
+      "credits": 3,
+      "description": "Concepts and features in design, compilation, and implementation of modern programming languages. Introduction to functional and logic-programming. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-, or EECE2080C min grade C-. Be enrolled in one of these Plans CS-BSCS, CMPE-BSCOM, CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "ENGL2089",
       "course_name": "Intermediate Composition",
-      "credits": 3
+      "credits": 3,
+      "description": "Intermediate Composition is a writing-centered course that builds on what students learn in first-year composition and focuses students’ attention on theoretical underpinning of how meaning is made, understood, and communicated within and across various discourse communities and genres. The course emphasizes critical reading and writing, advanced research and analysis skills, and rhetorical sensitivity to differences in academic, professional, and public composing. This course challenges students to engage in substantive projects drawing on primary research and source analysis methods and asks students to document, communicate, and reflect on their research. - Prerequisite Definition: To take this course you must: Have taken the following Courses ENGL1001 min grade C-, or ENGL1001C min grade C-, or ENGL1002 min grade C-, or ENGL1012 min grade C-, or ENGL1902 min grade C-. Be at least a Sophomore.",
+      "prerequisites": [
+        "ENGL1001"
+      ]
     },
     {
       "course_code": "PD2050",
       "course_name": "Mid-Curricular Co-op Community for Engineering",
-      "credits": 1
+      "credits": 1,
+      "description": "This course is required for students who have completed two cooperative education work terms. The course provides a forum for students to share their co-op experiences in community with their classmates and to explore career options and discipline specific topics of their choosing. After taking this course, students will have a stronger understanding of the relationship between their co-op experiences and their academic coursework. - Prerequisite Definition: To take this course you must: Have taken the following Course COOP2011 min grade D-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "COOP2011"
+      ]
     },
     {
       "course_code": "STAT2037",
       "course_name": "Probability and Statistics I (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "An introduction to probability and statistics for students with a calculus background. The course covers sample spaces and probability laws; discrete and continuous random variables with special emphasis on the binomial, Poisson, hypergeometric, normal and gamma distributions; joint distributions; sampling distributions; one and two-sample parameter estimation problems; and one and two-sample tests of hypotheses. This course provides a foundation for the further study of statistics. - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1045 min grade C-, or MATH1046 min grade C-, or MATH1062 min grade C-.",
+      "prerequisites": [
+        "MATH1062"
+      ]
     },
     {
       "course_code": "COMM1071",
       "course_name": "Introduction to Effective Speaking",
-      "credits": 3
+      "credits": 3,
+      "description": "This course introduces the principles of and practice in composition and presentation of speeches. Topics include speaker and audience relationship, organization of speeches, active listening skills, use of appropriate language, use of technology as an enhancement of speech, managing speech anxiety and developing a natural verbal and nonverbal delivery style.",
+      "prerequisites": []
     },
     {
       "course_code": "CS4071",
       "course_name": "Design and Analysis of Algorithms (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "An introduction to the study of sequential algorithms. Analysis of computing time, asymptotic notation, introduction to lower bound theory. Induction, correctness proofs, and recurrence relations. Major design strategies: the greedy method, divide-and-conquer, dynamic programming. Graph and network algorithms.\n- Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-,CS2071 min grade C-,STAT2037 min grade C-.",
+      "prerequisites": [
+        "CS2028C",
+        "CS2071",
+        "STAT2037"
+      ]
     },
     {
       "course_code": "CS4092",
       "course_name": "Database Design and Development (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Database design with the Entity Relationship model. Relational data model and database design. Physical storage techniques. Reliability and recovery. Concurrency. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-,CS2071 min grade C-, or EECE2080C min grade C-, or EECE2040 min grade C-.",
+      "prerequisites": [
+        "CS2028C",
+        "CS2071",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "EECE3093C",
       "course_name": "Software Engineering (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "Introduction to software engineering and formal methods. General course topics include software lifecycle models, requirements analysis, specification, design, testing and maintenance. The course introduces students to formal methods, global software engineering, and ethics for software engineering. In the lab sessions, students apply concepts taught in lecture, and develop a large group project. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-, or EECE2080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE, CS-BSCS, SWRE-C1, CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "CS4033",
       "course_name": "Artificial Intelligence: Principles and Applications",
-      "credits": 3
+      "credits": 3,
+      "description": "1. Fundamental Issues in Intelligent Systems\na. Describe Turing test and Chinese Room Thought Experiment\nb. Definitions of AI; Difference between optimum reasoning/behavior and human-like behavior/reasoning\n2. Basic Search Strategies\na. Formulate efficient problem/search spaces for a number of problems\nb. Combinatorial explosion of search spaces in most problems of interest\nc. Usefulness of heuristics, completeness, optimality, time/space complexity during search\nd. Uninformed search algorithms\ne. Informed Search Algorithms, admissibility, monotonicity, Design a solution using A* search\nf. Constraint satisfaction problems, algorithms for their solution\ng. Game playing and game tree search, minimax, alpha-beta search\nh. Examples of applications of search-based solutions for business and scientific decision making\n3. Basic Knowledge Representation\na. Introduction to First Order Predicate Calculus (FOPC)\nb. Representation of simple English sentences in FOPC\nc. Convert FOPC formulas into clauses\nd. Inference rules for FOPC, Resolution, Resolution-refutation, answer-extraction\ne. Illustration of modern AI systems such as Watson that represent large volumes of knowledge and their applications in medicine and business\n4. Reasoning with uncertainty\na. Probabilistic reasoning\nb. Bayes theorem\n5. Basic Machine Learning\na. Differences between supervised, unsupervised, and reinforcement learning\nb. Examples of data-driven decision support systems for use in business, engineering and sciences\n- Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-, or EECE2080C min grade C-. Be enrolled in the following Program 20BC. Be enrolled in the following Plan CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "CS4065",
       "course_name": "Computer Networks and Networked Computing",
-      "credits": 3
+      "credits": 3,
+      "description": "Introduction to basic concepts of computer networks, communication protocols, and computing principles for networked systems. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-, or EECE2080C min grade C-. Be enrolled in one of these Plans CS-BSCS, CMPE-BSCOM, CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "EECE4029",
       "course_name": "Operating Systems & Systems Programming (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "This course is an introduction to concepts of modern operating systems and systems programming. Emphasis is on the concepts, algorithms and architectures of modern operating systems. Students will also learn Unix system programming such as synchronizing, inter-process communication, and networking. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2011 min grade C-,CS2028C min grade C-, or EECE3026 min grade C-,EECE2080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, CS-BSCS, SWRE-C1, CS-MIN.",
+      "prerequisites": [
+        "CS2011",
+        "CS2028C",
+        "EECE3026",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "ENGL4092",
       "course_name": "Technical and Scientific Writing",
-      "credits": 3
+      "credits": 3,
+      "description": "This course readies students for the kinds and purposes of professional writing they will do in their professional careers in technology, science,and engineering. Writing in these fields supports design processes, research studies, problem solving, and business transactions. In studying the theory and practice of writing in specialized environments, students will develop strategies for adjusting content, style, design, and delivery method to different rhetorical contexts. This course often operates as a writing intensive workshop where student participation is necessary and vital. This course is not a review of basic composition or grammar skills, although students will learn techniques for successful revising and editing. - Prerequisite Definition: To take this course you must: Have taken the following Courses ENGL1001 min grade D-, or ENGL1012 min grade D-, or ESL1080 min grade D-.",
+      "prerequisites": [
+        "ENGL1001"
+      ]
     },
     {
       "course_code": "CS5001",
       "course_name": "Computer Science Senior Design I (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "First of two semester laboratory series in which students create a significant product capitalizing on their prior four years of computer science education. Each student selects a project advisor, and works with him/her to select a design problem, identify the requirements and specifications of the product, and design the product. Team projects are strongly encouraged. - Prerequisite Definition: To take this course you must: Be enrolled in the following Plan CS-BSCS.",
+      "prerequisites": []
     },
     {
       "course_code": "CS5170",
       "course_name": "The Theory of Formal Languages and Automata",
-      "credits": 3
+      "credits": 3,
+      "description": "Finite state automata. Regular languages and grammars. Context-free grammars and their normal forms. Pushdown automata. Turing machines. Nondeterministic Turing machines. Universal Turing Machines. The Chomsky hierarchy. The limits of computation. Complexity theory. Finite-state transducers. Moore machines and Mealy machines. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-,CS2071 min grade C-, or EECE2080C min grade C-. Be enrolled in one of these Plans CS-BSCS, CMPE-BSCOM, CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "CS2071",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "CS5002",
       "course_name": "Computer Science Senior Design II (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Second of two semester laboratory series in which students create a significant product capitalizing on their prior four years of computer science education. Completion of detailed design and implementation of project. - Prerequisite Definition: To take this course you must: Have taken the following Course CS5001 min grade C-. Be enrolled in the following Plan CS-BSCS.",
+      "prerequisites": [
+        "CS5001"
+      ]
     },
     {
       "credits": 0,
       "course_name": "Co-op for CEAS (First Semester Experience)",
-      "course_code": "COOP2011"
+      "course_code": "COOP2011",
+      "description": "An individualized, progressive course of study utilizing cooperative education to facilitate and focus the process of integrating theory and practice through faculty-guided, discipline-related learning experiences. In addition the course develops and applies students 'observation, reflection, and evaluation skills related to specific learning objectives. Cooperative education learning objectives include topics and assignments designed to support increasing levels of professional knowledge and skills in the workplace, and enhance students' ability to critically analyze the learning gained through workplace experiences. The student will build a body of work that will be assessed from the student, employer and faculty perspective and that gives evidence of successful accomplishment of the learning outcomes. Focused learning objectives topics will include reflection, communication, initiative/motivation, and organizational culture. This course is intended for students enrolled in the College of Engineering and Applied Science co-op programs. - Prerequisite Definition: To take this course you must: Have taken the following Courses PD1010 min grade C-, or PD1011 min grade C-, or PD1015 min grade C-, or PD1021 min grade C-, or PD1070 min grade C-, or PD1091 min grade C-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "PD1011"
+      ]
     },
     {
       "credits": 0,
       "course_name": "Co-op for CEAS (Second Semester Experience)",
-      "course_code": "COOP2012"
+      "course_code": "COOP2012",
+      "description": "An individualized, progressive course of study utilizing cooperative education to facilitate and focus the process of integrating theory and practice through faculty-guided, discipline-related learning experiences. In addition the course develops and applies students' observation, reflection, and evaluation skills related to specific learning objectives. Cooperative education learning objectives include topics and assignments designed to support increasing levels of professional knowledge and skills in the workplace, and enhance students' ability to critically analyze the learning gained through workplace experiences. The student will build a body of work that will be assessed from the student, employer and faculty perspective and that gives evidence of successful accomplishment of the learning outcomes. Focused learning objectives topics will include teamwork, professionalism, and professional ethics. Student learning outcomes will be progressive and build on the previous co-op semester. This course is intended for College of Engineering and Applied Science undergraduate students enrolling in their second co-op session. - Prerequisite Definition: To take this course you must: Have taken the following Course COOP2011 min grade D-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "COOP2011"
+      ]
     },
     {
       "credits": 0,
       "course_name": "Co-op for CEAS (Third Semester Experience)",
-      "course_code": "COOP3011"
+      "course_code": "COOP3011",
+      "description": "An individualized, progressive course of study utilizing cooperative education to facilitate and focus the process of integrating theory and practice through faculty-guided, discipline-related learning experiences. In addition the course develops and applies students' observation, reflection, and evaluation skills related to specific learning objectives. Cooperative education learning objectives include topics and assignments designed to support increasing levels of professional knowledge and skills in the workplace, and enhance students' ability to critically analyze the learning gained through workplace experiences. The student will build a body of work that will be assessed from the student, employer and faculty perspective and that gives evidence of successful accomplishment of the learning outcomes. Focused learning objectives topics will include project management, task management and social responsibility. Student learning outcomes will be progressive and build on previous co-op semesters. This course is intended for College of Engineering and Applied Science undergraduate students enrolling in their third co-op session. - Prerequisite Definition: To take this course you must: Have taken the following Course COOP2012 min grade D-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "COOP2012"
+      ]
     },
     {
       "credits": 0,
       "course_name": "COOP for CEAS (Fourth Semester Experience)",
-      "course_code": "COOP4011"
+      "course_code": "COOP4011",
+      "description": "An individualized, progressive course of study utilizing cooperative education to facilitate and focus the process of integrating theory and practice through faculty-guided, discipline-related learning experiences. In addition the course develops and applies students' observation, reflection, and evaluation skills related to specific learning objectives. Cooperative education learning objectives include topics and assignments designed to support increasing levels of professional knowledge and skills in the workplace, and enhance students' ability to critically analyze the learning gained through workplace experiences The student will build a body of work that will be assessed from the student, employer and faculty perspective and that gives evidence of successful accomplishment of the learning outcomes. Focused learning objectives topics will include critical thinking, self assessment and career planning. Student learning outcomes will be progressive and build on previous co-op semesters. This course is intended for College of Engineering and Applied Science undergraduate students enrolling in their fourth co-op session. - Prerequisite Definition: To take this course you must: Have taken the following Course COOP3011 min grade D-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "COOP3011"
+      ]
     },
     {
       "credits": 0,
       "course_name": "Co-op for CEAS (Fifth Semester Experience)",
-      "course_code": "COOP4012"
+      "course_code": "COOP4012",
+      "description": "An individualized, progressive course of study utilizing cooperative education to facilitate and focus the process of integrating theory and practice through faculty-guided, discipline-related learning experiences. In addition the course develops and applies students' observation, reflection, and evaluation skills related to specific learning objectives. Cooperative education learning objectives include topics and assignments designed to support increasing levels of professional knowledge and skills in the workplace, and enhance students' ability to critically analyze the learning gained through workplace experiences. The student will build a body of work that will be assessed from the student, employer and faculty perspective and that gives evidence of successful accomplishment of the learning outcomes. Focused learning objectives topics will include professional career knowledge and integration of theory and practice. Student learning outcomes will be progressive and build on previous co-op semesters. This course is intended for College of Engineering and Applied Science undergraduate students enrolling in their fifth co-op session. - Prerequisite Definition: To take this course you must: Have taken the following Course COOP4011 min grade D-. Be enrolled in one of these Programs 20BAC, 20BC.",
+      "prerequisites": [
+        "COOP4011"
+      ]
     },
     {
       "credits": 3,
       "course_name": "Biology I: Molecules, Cells and the Foundation of Life",
-      "course_code": "BIOL1081"
+      "course_code": "BIOL1081",
+      "description": "This course is designed for Biology majors and students whose programs require a majors' level course in biology. This course introduces the fundamental characteristics of life, from the molecular to the cellular level, with an emphasis on structure-function relationships and placed in an evolutionary context. Topics covered include: chemicals of life, cell biology, bioenergetics, cell cycle, genetics, DNA replication, protein synthesis, and gene regulation. - Prerequisite Definition: To take this course you must: Have taken the following Courses BIOL1051C min grade C-, or MATH0020 min grade C-, or MATH0025 min grade C-, or MATH0029 min grade C-, or MATH0030 min grade C-, or MATH1021 min grade C-, or MATH1023 min grade C-, or MATH1026 min grade C-, or MATH1044 min grade C-, or MATH1061 min grade C-. Taken one of these tests ACT MATH min score of 22, or ALEKS MATH min score of 14, or SAT MATH min score of 530, or SAT MATHS min score of 560, or UCPT MATH min score of 260.",
+      "prerequisites": [
+        "MATH1061"
+      ]
     },
     {
       "credits": 1,
       "course_name": "Biology I Laboratory",
-      "course_code": "BIOL1081L"
+      "course_code": "BIOL1081L",
+      "description": "Biology I laboratory expands upon concepts introduced in lecture, and is designed to develop a student's ability to think, work, and write likea scientist. Tools and techniques will include work with microscopes, biochemical tests, and experimental design. Co-requisite: Biol 1081.",
+      "prerequisites": []
     },
     {
       "credits": 4,
       "course_name": "College Physics I (Calculus-based)",
-      "course_code": "PHYS2001"
+      "course_code": "PHYS2001",
+      "description": "This course covers topics in physics using methods of calculus, algebra, and trigonometry, including vector arithmetic. The course includes the study of motion in one and two dimensions, and the applications of the concepts of force, work, energy, and momentum to linear and rotational motion. Simple harmonic motion, waves, elementary thermodynamics, and properties of solids, fluids, and gases are also explored. As designated by TAG: co-or pre-requisite is Calculus I (MATH 1061). - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1022 min grade C-, or MATH1024 min grade C-, or MATH1026 min grade C-, or MATH1059 min grade C-, or MATH1060 min grade C-, or MATH1061 min grade C-. Taken one of these tests ACT MATH min score of 26, or ALEKS MATH min score of 76, or SAT MATHS min score of 530, or SAT MATH min score of 710, or UCPT MATH min score of 750.",
+      "prerequisites": [
+        "MATH1061"
+      ]
     },
     {
       "credits": 1,
       "course_name": "College Physics Lab I (Calculus-based)",
-      "course_code": "PHYS2001L"
+      "course_code": "PHYS2001L",
+      "description": "The lab includes the study of motion in one and two dimensions, and the applications of the concepts of force, work, energy, and momentum to linear and rotational motion for students of PHYS2001. Simple harmonic motion, waves, elementary thermodynamics, and properties of solids, fluids, and gases are also explored. A working knowledge of calculus will be needed. Pre-or Co-requisite: College Physics I (PHYS 2001)",
+      "prerequisites": []
     },
     {
       "course_code": "EECE1100",
       "course_name": "Introduction to EECS for EE, CompE, and EET Majors",
-      "credits": 1
+      "credits": 1,
+      "description": "Overview of BS programs in EE, CompE, and EET. Department organization. How to access information about department facilities, and programs. Opportunities for student involvement. Important ideas and current trends in the fields of EE, CompE, and EET. - Prerequisite Definition: To take this course you must: Be enrolled in one of these Plans FEP-BX, EASE-BX, CMPE-BSCOM, EE-BSEE, EET-BSEET. Be a First Year Student.",
+      "prerequisites": []
     },
     {
       "course_code": "EECE1080C",
       "course_name": "Programming for ECE (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "Introduction to software methods for solving engineering problems. Emphasis is on the software development process including creating problem requirements, systematic software design, correct and maintainable C++ coding, and efficient software testing methods. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1005C min grade C-, or CS2005C min grade C-, or ENED1021 min grade C-, or ENED1090 min grade C-, or ENED1100 min grade C-, or IT1090C min grade C-. Be enrolled in one of these Programs 20BAC, 20BC. Be enrolled in one of these Plans CYBR-C1, CS-MIN.",
+      "prerequisites": [
+        "ENED1100"
+      ]
     },
     {
       "course_code": "EECE2051C",
       "course_name": "Network Analysis (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "Voltage, current, and power in electrical networks. Resistive networks: Ohm’s law, Kirchhoff’s Laws, node voltage and mesh current analysis. Network theorems: superposition, source transformations, Thévenin’s theorem. Transient and steady-state solutions for RL, RC and RLC networks with constant forcing functions. Use of phasors in steady-state analysis of networks with sinusoidal forcing functions. AC power circuit analysis. Magnetically coupled networks. Frequency response, resonance, bandwidth, and quality factor. - Prerequisite Definition: To take this course you must: Have taken the following Courses ENED1021 min grade C-,MATH1060 min grade C-, or MATH1061 min grade C-, or ENED1090 min grade C-, or ENED1100 min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "MATH1061",
+        "ENED1100"
+      ]
     },
     {
       "course_code": "EECE2060C",
       "course_name": "Digital Design (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "Theory and practice of digital system design; combinational logic, synchronous sequential circuits, components and technologies, digital design processes including requirements generation, design and verification using Hardware Description Language (HDL) modeling and simulation, hardware synthesis, digital test design, digital circuit design labs included. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "EECE2065",
       "course_name": "Differential Equations and Laplace Transforms (C- min)",
-      "credits": 2
+      "credits": 2,
+      "description": "First and Second Order Differential Equations and Laplace Transforms. - Prerequisite Definition: To take this course you must: Have taken the following Courses MATH1062 min grade C-, or MET3051 min grade C-. Be enrolled in one of these Plans CMPE-BSCOM, CYE-BSCYBR, EE-BSEE, EET-BSEET.",
+      "prerequisites": [
+        "MATH1062"
+      ]
     },
     {
       "course_code": "MATH2063",
       "course_name": "Multivariable Calculus",
-      "credits": 4
+      "credits": 4,
+      "description": "Study of lines and planes, vector-valued functions, partial derivatives and their applications, multiple integrals, and calculus of vector fields. - Prerequisite Definition: To take this course you must: Have taken the following Course MATH1062 min grade C-.",
+      "prerequisites": [
+        "MATH1062"
+      ]
     },
     {
       "course_code": "PHYS2076",
       "course_name": "Semiconductor Physics for Engineers",
-      "credits": 4
+      "credits": 4,
+      "description": "The goal for SEMICONDUCTOR PHYSICS FOR ENGINEERS is to introduce the basic concepts of quantum mechanics and teach students to apply these concepts to a variety of physical situations. This course covers topics in modern physics including the special theory of relativity, wave properties of matter, quantum mechanics, the structure of the atom, statistical physics, molecules and solids, semiconductor theory and devices as well as nuclear physics. Topics on nanostructured materials and on nanoscale electronics will also be covered in this course. - Prerequisite Definition: To take this course you must: Have taken the following Courses PHYS2001 min grade C-, or PHYS2002 min grade C-, or PHYS2006 min grade C-.",
+      "prerequisites": [
+        "PHYS2001"
+      ]
     },
     {
       "course_code": "EECE2070",
       "course_name": "Electronics I (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Operational amplifiers, nonlinear circuits, linear amplifiers, bipolar and field-effect stages, differential and multistage amplifiers; use of MATLAB and PSpice. Students must enroll in EECE2070L Electronics 1 Laboratory in the same semester that they take EECE2070 Electronics 1. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2050C min grade C-, or EECE2051C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "EECE2051C"
+      ]
     },
     {
       "course_code": "EECE2070L",
       "course_name": "Electronics Laboratory I (C- min)",
-      "credits": 1
+      "credits": 1,
+      "description": "Computer controlled use of oscilloscope and spectrum analyzer, circuit simulation, operational amplifiers, transistor biasing and single-stage amplification, multi-stage and feedback amplifiers, active filters. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2050C min grade C-, or EECE2051C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "EECE2051C"
+      ]
     },
     {
       "course_code": "EECE2080C",
       "course_name": "Engineering Data Structures (C- min)",
-      "credits": 2
+      "credits": 2,
+      "description": "Introduction to intermediate and advanced programming methods. Objects, pointers, proper use of dynamic data structures, files. Introduction to Unix/linux operating systems. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-,ENED1091 min grade C-,MATH1061 min grade C-, or ENED1120 min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE, CS-MIN.",
+      "prerequisites": [
+        "CS1021C",
+        "MATH1061",
+        "ENED1120",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "EECE3065",
       "course_name": "Signals and Systems (C- min)",
-      "credits": 4
+      "credits": 4,
+      "description": "An introduction to the fundamentals of signals and systems, including the mathematical and computational methods for system analysis and design. Continuous-time and discrete-time systems using time-domain and frequency-domain methods. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2051C min grade C-,EECE2065 min grade C-, or MATH2073 min grade C-, or ELTN1043C min grade C-.",
+      "prerequisites": [
+        "EECE2051C",
+        "EECE2065"
+      ]
     },
     {
       "course_code": "EECE3026",
       "course_name": "Introduction to Computer Architecture & Organization (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Fundamentals of computers. The stored program concept. Addressing modes, instruction formats, and instruction sets. Data path and control unit design. Hardwired and microprogrammed control. Memory components and the memory hierarchy. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS1021C min grade C-,EECE2060C min grade C-, or EECE1080C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE, CS-MIN, ES-MIN.",
+      "prerequisites": [
+        "CS1021C",
+        "EECE2060C",
+        "EECE1080C"
+      ]
     },
     {
       "course_code": "EECE3071",
       "course_name": "Electronics II",
-      "credits": 3
+      "credits": 3,
+      "description": "Frequency response of amplifiers, feedback systems, active filters, oscillators, tuned amplifiers, field-effect and bipolar digital circuits, use of MATLAB, PSPICE. Students must enroll in EECE3071L Electronics 2 Lab in the same term as this lecture course. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2070 min grade C-,EECE2070L min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "EECE2070",
+        "EECE2070L"
+      ]
     },
     {
       "course_code": "EECE3071L",
       "course_name": "Electronics Laboratory II",
-      "credits": 1
+      "credits": 1,
+      "description": "Multi-stage, tuned, large-signal, and power amplifiers, emitter-coupled oscillators, active filters, and transistor-transistor and emitter-coupled logic. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2070 min grade C-,EECE2070L min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "EECE2070",
+        "EECE2070L"
+      ]
     },
     {
       "course_code": "EECE4038C",
       "course_name": "Embedded System Design",
-      "credits": 3
+      "credits": 3,
+      "description": "Introduction to microprocessors and their uses. Review of gate level digital fundamentals. Architecture and register set of CPU, types of memory, interfacing using FPGA technology. Use of assembly language to create binary machine code. Link to high level languages. - Prerequisite Definition: To take this course you must: Have taken the following Courses EECE2060C min grade C-, or ELTN2003C min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, EET-BSEET, CMPE-BSCOM, EE-BSEE.",
+      "prerequisites": [
+        "EECE2060C"
+      ]
     },
     {
       "course_code": "EECE4040",
       "course_name": "Advanced Data Structures and Algorithms (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Introduction to data abstraction; problem-solving with abstract data types, algorithm analysis and space/time complexity. - Prerequisite Definition: To take this course you must: Have taken the following Courses CS2028C min grade C-,CS2071 min grade C-, or EECE2080C min grade C-, or EECE2040 min grade C-. Be enrolled in one of these Plans CYE-BSCYBR, CMPE-BSCOM, CS-MIN.",
+      "prerequisites": [
+        "CS2028C",
+        "CS2071",
+        "EECE2080C"
+      ]
     },
     {
       "course_code": "ENED3066",
       "course_name": "Engineering Statistics (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Engineering Statistics is an introduction to basic statistical concepts and techniques with an emphasis on application to engineering. Topics include probability theory, binomial and normal distributions, descriptive statistics, confidence intervals, hypothesis tests, analysis of variance, and linear regression. - Prerequisite Definition: To take this course you must: Have taken the following Course MATH1062 min grade D-.",
+      "prerequisites": [
+        "MATH1062"
+      ]
     },
     {
       "course_code": "EECE5031",
       "course_name": "Computer Engineering Senior Design I (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "First of two semester laboratory series in which students create a significant product capitalizing on their prior four years of electrical/computer engineering education. Each student selects a project advisor, and works with him/her to select a design problem, identify the requirements and specifications of the product, and design the product. - Prerequisite Definition: To take this course you must: Be enrolled in the following Plan CMPE-BSCOM.",
+      "prerequisites": []
     },
     {
       "course_code": "EECE5032",
       "course_name": "Computer Engineering Senior Design II (C- min)",
-      "credits": 3
+      "credits": 3,
+      "description": "Second of two semester laboratory series in which students create a significant product capitalizing on their prior four years of electrical/computer engineering education. Completion of detailed design and implementation of project. - Prerequisite Definition: To take this course you must: Be enrolled in the following Plan CMPE-BSCOM.",
+      "prerequisites": []
     }
   ]
 }
