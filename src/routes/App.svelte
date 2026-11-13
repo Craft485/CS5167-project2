@@ -1,9 +1,7 @@
 <script>
-  import './app.css';
-	import planData from './assets/data/plan.json';
+	import planData from '../assets/data/plan.json';
 
 	let selectedPlan = '';
-  // TODO: Implement an onClick for the submission to take the user to the main audit page
 </script>
 
 <main class="flex min-h-screen items-center justify-center bg-slate-950 px-4 py-12 text-slate-100">
@@ -35,6 +33,7 @@
 
 			<button
 				type="button"
+				onclick={() => window.location.href = "/audit"}
 				class="w-full rounded-lg bg-indigo-500 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-indigo-400 focus:outline-none focus:ring-4 focus:ring-indigo-400/30"
 			>
 				View Degree Audit
