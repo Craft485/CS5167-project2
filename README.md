@@ -11,6 +11,7 @@
 | Column | Type | Nullable |
 |---|---|---|
 | `plan_code` | `string` | No |
+| `display` | `string` | No |
 
 `src/assets/data/plan.json` is a list of plans. A plan currently only consists of a plan code. The plan code must be unique.
 

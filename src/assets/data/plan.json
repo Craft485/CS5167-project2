@@ -1,10 +1,12 @@
 {
   "plans": [
     {
-      "plan_code": "BSCS"
+      "plan_code": "BSCS",
+      "display": "BS Computer Science (CEAS)"
     },
     {
-      "plan_code": "BSCE"
+      "plan_code": "BSCE",
+      "display": "BS Computer Engineering (CEAS)"
     }
   ]
 }
