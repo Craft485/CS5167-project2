@@ -1,0 +1,10 @@
+{
+    "students": [
+        {
+            "name": "Alex VanBibber",
+            "m_number": "12345678",
+            "gpa": "5.0",
+            "plan_code": "BSCS" 
+        }
+    ]
+}
