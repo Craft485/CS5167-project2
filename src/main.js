@@ -96,8 +96,15 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
 
   // Shared cell getters
   const id      = c => c.requirement_id;
-  const name    = c => c.course_name ?? "";
-  const credits = c => c.credits ?? "";
+  const name = c => {
+  if (c.course_name) return c.course_name;
+  const rid = c.requirement_id ?? "";
+  if (rid.includes("CS_ELECTIVES")) return "CS ELECTIVE";
+  if (rid.includes("SCI_ELECTIVE")) return "SCIENCE ELECTIVE";
+  if (rid.includes("GENERAL_EDUCATION")) return "GENERAL EDUCATION";
+  return "GENERAL ELECTIVE";
+  };
+  const credits = c => c.credits || "N/A";
   const grade   = c => c.grade ?? "";
   const term    = c => c.term ?? "";
 
@@ -119,6 +126,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
         { header: "Course ID",   get: id },
         { header: "Course Name", get: name },
         { header: "Credits",     get: credits },
+        { header: "Estimated Term", get: term}
       ],
     },
     {
@@ -161,4 +169,4 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
   doc.save(`Academic Advisement Report - ${student_info.name}.pdf`);
 }
 
-getPDFData(courses, student_courses, students, "12345678");
+getPDFData(courses, student_courses, students, "12345678"); //Running this generates the PDF as well
