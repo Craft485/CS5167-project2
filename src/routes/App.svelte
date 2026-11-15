@@ -1,5 +1,5 @@
 <script>
-	import planData from '../assets/data/plan.json';
+	import SelectPlan from "../components/PlanSelect.svelte";
 
 	let selectedPlan = '';
 </script>
@@ -17,23 +17,12 @@
 
 		<div class="space-y-5">
 			<div class="space-y-2 text-left">
-				<label for="plan" class="block text-sm font-medium text-slate-300">Plan</label>
-				<select
-					id="plan"
-					name="plan"
-					bind:value={selectedPlan}
-					class="block w-full rounded-lg border border-slate-700 bg-slate-950 px-4 py-3 text-base text-slate-100 shadow-sm outline-none transition focus:border-indigo-400 focus:ring-4 focus:ring-indigo-400/20"
-				>
-					<option value="" disabled>Select a plan</option>
-					{#each planData.plans as plan}
-						<option value={plan.plan_code}>{plan.display}</option>
-					{/each}
-				</select>
+				<SelectPlan bind:selectedPlan={selectedPlan} />
 			</div>
 
 			<button
 				type="button"
-				onclick={() => window.location.href = "/audit"}
+				onclick={() => { if (selectedPlan !== "") window.location.href = `/audit?plan_code=${selectedPlan}` }}
 				class="w-full rounded-lg bg-indigo-500 px-5 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-indigo-400 focus:outline-none focus:ring-4 focus:ring-indigo-400/30"
 			>
 				View Degree Audit
