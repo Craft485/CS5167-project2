@@ -1,5 +1,5 @@
 <script>
-	import SelectPlan from "../components/PlanSelect.svelte";
+	import SelectPlan from "./components/PlanSelect.svelte";
 
 	let selectedPlan = '';
 </script>
