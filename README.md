@@ -7,6 +7,37 @@ Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 The advisement report page has been the result of many headaches for students.  Automatic sign outs, buttons with no purpose, impossible to find classes, there is no shortage of problems with the site.  We seek to fix that.
 ### Sketches
 (sketches go here)
+### Heuristic Assessment
+Using Jakob's 10 Usability Heuristics, we noted the following about the current degree audit page:
+1. Visibility of the System:
+  - Does not easily define what classes need to be taken
+  - No clear sign of where the user is in the course path
+2. Match Between System and the Real World
+  - Uses course numbers before names, some names are changed and not updated
+  - No buttons define what requirements are drop down menus
+  - No use of color to define what is done or not
+3. User Control and Freedom
+  - Buttons for different tasks have the same name but do not define what task they affect
+  - Redundant buttons that do nothing unless something else is done
+4. Consistency and Standards
+  - Courses that cannotg be applied twice appear at the very top of the site and not where they are really needed
+5. Error Prevention
+  - Pressing the favorite button locks the user out
+  - Mostly reading so no real errors are producable
+6. Recognition Rather than Recall
+  - What a user needs is off page at times and requires moving around the page
+  - Legend symbols are only at the top of the page and not described where they actually appear
+7. Flexibility and Efficiency
+  - No shortcuts offered
+  - Opens many tabs, sucking up resources and confusing users
+8. Aesthetic and Minimalist Design
+  - Only light mode is offered
+  - Too minimal, not enough imagery is shown to show how something works or is applied (ie the legend icons)
+9. Recognize, Diagnose, and Recover from Errors
+  - Not applicable as errors are very rare (apart from the favorite error which requires a re launch of the page)
+10. Help and Documentation
+  - Help is offered via advisors
+  - Little to no documentation 
 ### Implementation
 
 This project was implemented using Svelte, JavaScript, and CSS along with the following libraries:
