@@ -8,7 +8,7 @@
   id="plan"
   name="plan"
   bind:value={selectedPlan}
-  class="block w-full rounded-lg border border-slate-700 bg-slate-950 px-4 py-3 text-base text-slate-100 shadow-sm outline-none transition focus:border-indigo-400 focus:ring-4 focus:ring-indigo-400/20"
+  class="block w-full rounded-lg border border-slate-700 bg-slate-950 px-4 py-3 text-base text-slate-100 shadow-sm outline-none transition focus:border-indigo-400 focus:ring-4 focus:ring-indigo-400/20 cursor-pointer"
 >
   <option value="" disabled>Select a plan</option>
   {#each planData.plans as plan}

@@ -1,7 +1,10 @@
 <script>
   import Course from "../components/Course.svelte";
+  import { stringToHexCode } from "../utils.svelte";
+
   let { courses, label, showDetailsModal = $bindable() } = $props();
   const totalCredits = $derived(courses.reduce((t, c) => t + c.credits, 0));
+  let semesterColor = $derived(stringToHexCode(courses.map(c => c.course_code)));
 </script>
 
 <section class="flex flex-col gap-4 p-2 rounded-2xl border-2 border-[#1d1d1d] bg-[#1f1f1f] h-min">
@@ -12,6 +15,6 @@
     </span>
   </div>
   {#each courses as course}
-    <Course courseCode={course.course_code} credits={course.credits} bind:showDetailsModal={showDetailsModal} />
+    <Course courseCode={course.course_code} credits={course.credits} bind:showDetailsModal={showDetailsModal} bind:color={semesterColor} />
   {/each}
 </section>
