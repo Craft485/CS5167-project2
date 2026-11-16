@@ -8,7 +8,8 @@
     student,
     student_courses,
     requirement_course,
-    showDetailsModal = $bindable()
+    showDetailsModal = $bindable(),
+    currentFocusId = $bindable(),
   } = $props();
   const totalCredits = $derived(courses.reduce((t, c) => t + c.credits, 0));
   let semesterColor = $derived(stringToHexCode(courses.map(c => c.course_code)));
@@ -37,11 +38,12 @@
   {#each courses as course}
     <Course
       courseCode={course.course_code}
+      displayName={course.course_name}
       credits={course.credits}
       status={getCourseStatus(course.course_code)}
-      displayName={course.display_name}
       bind:showDetailsModal={showDetailsModal}
       bind:color={semesterColor}
+      bind:focusId={currentFocusId}
     />
   {/each}
 </section>
