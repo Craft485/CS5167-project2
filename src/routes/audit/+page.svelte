@@ -3,7 +3,6 @@
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
 	import { fetchCoursesForPlan, shellFunctionForPDFCreator } from "../../utils"
-	import { fetchCoursesForPlan } from "../../utils"
 	import { students } from "../../assets/data/student.json";
 	import { student_courses } from "../../assets/data/student_courses.json";
 	import { requirement_course } from "../../assets/data/requirement_course.json";
