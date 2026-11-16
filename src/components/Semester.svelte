@@ -1,6 +1,6 @@
 <script>
   import Course from "../components/Course.svelte";
-  import { stringToHexCode } from "../utils.svelte";
+  import { stringToHexCode } from "../utils";
 
   let { courses, label, showDetailsModal = $bindable() } = $props();
   const totalCredits = $derived(courses.reduce((t, c) => t + c.credits, 0));

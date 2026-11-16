@@ -1,8 +1,8 @@
 <script>
-    import { CircleX } from "@lucide/svelte";
+	import { CircleX } from "@lucide/svelte";
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
-	import { fetchCoursesForPlan } from "../../utils.svelte"
+	import { fetchCoursesForPlan } from "../../utils"
 
 	let gpa = $state(3.14);
 	let showDetailsModal = $state(false);
