@@ -2,307 +2,383 @@
   "requirements": [
     {
       "semester": 1,
-      "requirement_id": "ENED1100"
+      "requirement_id": "ENED1100",
+      "display_name": null
     },
     {
       "semester": 1,
-      "requirement_id": "CS1100"
+      "requirement_id": "CS1100",
+      "display_name": null
     },
     {
       "semester": 1,
-      "requirement_id": "BSCS_SCI_ELECTIVE"
+      "requirement_id": "BSCS_SCI_ELECTIVE",
+      "display_name": "Science Elective"
     },
     {
       "semester": 1,
-      "requirement_id": "ENGL1001"
+      "requirement_id": "ENGL1001",
+      "display_name": null
     },
     {
       "semester": 1,
-      "requirement_id": "MATH1061"
+      "requirement_id": "MATH1061",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "CHEM1040"
+      "requirement_id": "CHEM1040",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "CHEM1040L"
+      "requirement_id": "CHEM1040L",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "CS1021C"
+      "requirement_id": "CS1021C",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "ENED1120"
+      "requirement_id": "ENED1120",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "MATH1062"
+      "requirement_id": "MATH1062",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "PD1011"
+      "requirement_id": "PD1011",
+      "display_name": null
     },
     {
       "semester": 3,
-      "requirement_id": "COOP2011"
+      "requirement_id": "COOP2011",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "CS2011"
+      "requirement_id": "CS2011",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "CS2023"
+      "requirement_id": "CS2023",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "CS2028C"
+      "requirement_id": "CS2028C",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "IT2030C"
+      "requirement_id": "IT2030C",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "MATH2076"
+      "requirement_id": "MATH2076",
+      "display_name": null
     },
     {
       "semester": 5,
-      "requirement_id": "COOP2012"
+      "requirement_id": "COOP2012",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "CS2071"
+      "requirement_id": "CS2071",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "CS3003"
+      "requirement_id": "CS3003",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "ENGL2089"
+      "requirement_id": "ENGL2089",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "PD2050"
+      "requirement_id": "PD2050",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "STAT2037"
+      "requirement_id": "STAT2037",
+      "display_name": null
     },
     {
       "semester": 7,
-      "requirement_id": "COOP3011"
+      "requirement_id": "COOP3011",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "COMM1071"
+      "requirement_id": "COMM1071",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "CS4071"
+      "requirement_id": "CS4071",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "CS4092"
+      "requirement_id": "CS4092",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "EECE3093C"
+      "requirement_id": "EECE3093C",
+      "display_name": null
     },
     {
       "semester": 9,
-      "requirement_id": "COOP4011"
+      "requirement_id": "COOP4011",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "CS4033"
+      "requirement_id": "CS4033",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "CS4065"
+      "requirement_id": "CS4065",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "EECE4029"
+      "requirement_id": "EECE4029",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "ENGL4092"
+      "requirement_id": "ENGL4092",
+      "display_name": null
     },
     {
       "semester": 11,
-      "requirement_id": "COOP4012"
+      "requirement_id": "COOP4012",
+      "display_name": null
     },
     {
       "semester": 12,
-      "requirement_id": "CS5001"
+      "requirement_id": "CS5001",
+      "display_name": null
     },
     {
       "semester": 12,
-      "requirement_id": "CS5170"
+      "requirement_id": "CS5170",
+      "display_name": null
     },
     {
       "semester": 13,
-      "requirement_id": "CS5002"
+      "requirement_id": "CS5002",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6"
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6",
+      "display_name": "Gen Ed"
     },
     {
       "semester": 8,
-      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8"
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8",
+      "display_name": "Gen Ed"
     },
     {
       "semester": 10,
-      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10",
+      "display_name": "Gen Ed"
     },
     {
       "semester": 12,
-      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12"
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12",
+      "display_name": "CS Elective"
     },
     {
       "semester": 12,
-      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12"
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12",
+      "display_name": "Gen Elective"
     },
     {
       "semester": 13,
-      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13"
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13",
+      "display_name": "CS Elective"
     },
     {
       "semester": 13,
-      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13",
+      "display_name": "Gen Elective"
     },
     {
       "semester": 1,
-      "requirement_id": "EECE1100"
+      "requirement_id": "EECE1100",
+      "display_name": null
     },
     {
       "semester": 1,
-      "requirement_id": "PHYS2001"
+      "requirement_id": "PHYS2001",
+      "display_name": null
     },
     {
       "semester": 1,
-      "requirement_id": "PHYS2001L"
+      "requirement_id": "PHYS2001L",
+      "display_name": null
     },
     {
       "semester": 2,
-      "requirement_id": "EECE1080C"
+      "requirement_id": "EECE1080C",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "EECE2051C"
+      "requirement_id": "EECE2051C",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "EECE2060C"
+      "requirement_id": "EECE2060C",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "EECE2065"
+      "requirement_id": "EECE2065",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "MATH2063"
+      "requirement_id": "MATH2063",
+      "display_name": null
     },
     {
       "semester": 4,
-      "requirement_id": "PHYS2076"
+      "requirement_id": "PHYS2076",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "BSCE_COMM1071"
+      "requirement_id": "BSCE_COMM1071",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "EECE2070"
+      "requirement_id": "EECE2070",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "EECE2070L"
+      "requirement_id": "EECE2070L",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "EECE2080C"
+      "requirement_id": "EECE2080C",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "EECE3065"
+      "requirement_id": "EECE3065",
+      "display_name": null
     },
     {
       "semester": 6,
-      "requirement_id": "BSCE_MATH2076"
+      "requirement_id": "BSCE_MATH2076",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "BSCE_CS2071"
+      "requirement_id": "BSCE_CS2071",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "EECE3026"
+      "requirement_id": "EECE3026",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "EECE3071"
+      "requirement_id": "EECE3071",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "EECE3071L"
+      "requirement_id": "EECE3071L",
+      "display_name": null
     },
     {
       "semester": 8,
-      "requirement_id": "BSCE_PD2050"
+      "requirement_id": "BSCE_PD2050",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "EECE4038C"
+      "requirement_id": "EECE4038C",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "EECE4040"
+      "requirement_id": "EECE4040",
+      "display_name": null
     },
     {
       "semester": 12,
-      "requirement_id": "EECE5031"
+      "requirement_id": "EECE5031",
+      "display_name": null
     },
     {
       "semester": 13,
-      "requirement_id": "EECE5032"
+      "requirement_id": "EECE5032",
+      "display_name": null
     },
     {
       "semester": 10,
-      "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10"
+      "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10",
+      "display_name": "Stats Elective"
     },
     {
       "semester": 10,
-      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_10",
+      "display_name": "Gen Ed"
     },
     {
       "semester": 12,
-      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_12"
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_12",
+      "display_name": "EECE Elective"
     },
     {
       "semester": 12,
-      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_12"
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_12",
+      "display_name": "Prof Elective"
     },
     {
       "semester": 12,
-      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_12"
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_12",
+      "display_name": "Gen Ed"
     },
     {
       "semester": 13,
-      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_13"
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_13",
+      "display_name": "EECE Elective"
     },
     {
       "semester": 13,
-      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_13"
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_13",
+      "display_name": "Prof Elective"
     },
     {
       "semester": 13,
-      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_13"
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_13",
+      "display_name": "Gen Ed"
     }
   ]
 }
