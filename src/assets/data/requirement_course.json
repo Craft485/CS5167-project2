@@ -255,6 +255,118 @@
     {
       "course_code": "ENED3066",
       "requirement_id": "BSCE_STATISTICS_ELECTIVE_SEMESTER_10"
+    },
+    {
+      "course_code": "ANTH1101",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6"
+    },
+    {
+      "course_code": "PHIL1001",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_6"
+    },
+    {
+      "course_code": "HIST1102",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8"
+    },
+    {
+      "course_code": "SOCI1101",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_8"
+    },
+    {
+      "course_code": "ECON1001",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "course_code": "COMM2080",
+      "requirement_id": "BSCS_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "course_code": "CS5130",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "course_code": "CS5140",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "course_code": "ART1001",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "course_code": "PSYC1001",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "course_code": "CS5150",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "course_code": "CS5160",
+      "requirement_id": "BSCS_CS_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "course_code": "MUSC1001",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "course_code": "GEOG1001",
+      "requirement_id": "BSCS_GENERAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "course_code": "POLS1001",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "course_code": "LING1001",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_10"
+    },
+    {
+      "course_code": "EECE5050",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "course_code": "EECE5060",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_12"
+    },
+    {
+      "course_code": "ENED3050",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "course_code": "ENED4050",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_12"
+    },
+    {
+      "course_code": "RELS1001",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_12"
+    },
+    {
+      "course_code": "HIST2100",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_12"
+    },
+    {
+      "course_code": "EECE5070",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "course_code": "EECE5080",
+      "requirement_id": "BSCE_EECE_ELECTIVES_SEMESTER_13"
+    },
+    {
+      "course_code": "ENED4060",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "course_code": "ENTR3001",
+      "requirement_id": "BSCE_PROFESSIONAL_ELECTIVE_SEMESTER_13"
+    },
+    {
+      "course_code": "PHIL2001",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_13"
+    },
+    {
+      "course_code": "SOCI2100",
+      "requirement_id": "BSCE_GENERAL_EDUCATION_COURSE_SEMESTER_13"
     }
   ]
 }
