@@ -77,8 +77,9 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 |---|---|
 | `semester` | `integer` |
 | `requirement_id` | `string` |
+| `display_name` | `string` |
 
-`src/assets/data/requirement.json` is a list of abstract requirements for a given plan. Requirements can be a course (in which case the requirement id should be the course code) or an elective (in which case the requirement should be a unique descriptive string in screaming snake case for the title of the elective, prepended with the plan code). The requirement ids must be unique. Each requirement also includes a semester field for the semester that the requirement is intended to be taken, this is represented as an integer that starts counting from 1.
+`src/assets/data/requirement.json` is a list of abstract requirements for a given plan. Requirements can be a course (in which case the requirement id should be the course code) or an elective (in which case the requirement should be a unique descriptive string in screaming snake case for the title of the elective, prepended with the plan code). The requirement ids must be unique. Each requirement also includes a semester field for the semester that the requirement is intended to be taken, this is represented as an integer that starts counting from 1. Elective requirements include a `display_name` field containing a concise, user-facing label for the elective slot. **The `display_name` field will be null for non-elective courses.**
 
 **`requirement_course.json`**
 | Column | Type |
@@ -121,8 +122,10 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 ### AI usage
 AI was used for creation of svg design mockups
 
-LLMs were also used for debugging and provided assistance with the implementation
+LLMs were also used for debugging and provided assistance with the implementation.
 - *NOTE: The bulk of the code written was still human made, LLMs were used as a time saving measure*
+
+LLMs were used to scrape and generate most of the mock data under `src/assets/data/`.
 
 ### Demo
 [Insert demo video]

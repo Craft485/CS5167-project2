@@ -17,6 +17,11 @@
 	let plan_code = $state(params.get("plan_code") ?? "BSCS");
 	const student = students[0];
 	let currentPlan = $derived(fetchCoursesForPlan(plan_code));
+	const semesterSeasons = ["FA", "SP", "SU"];
+	const semesterLabel = (/** @type {number} */index) => {
+		const year = 2023 + Math.floor((index + 2) / 3);
+		return `${semesterSeasons[index % semesterSeasons.length]}${String(year).slice(-2)}`;
+	};
 	let totalCredits = $derived(currentPlan.flat().reduce((t, c) => t + c.credits, 0));
 </script>
 
@@ -57,7 +62,7 @@
 		{#each currentPlan as semester, i}
 			<Semester
 				courses={semester}
-				label={`S${i + 1}`}
+				label={semesterLabel(i)}
 				{student}
 				{student_courses}
 				{requirement_course}

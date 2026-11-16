@@ -21,13 +21,17 @@ export function fetchCoursesForPlan(plan_code) {
   const semesters = reqs.reduce((groups, req) => {
     const courseCode = reqCourseMap.find(rc => rc.requirement_id === req.requirement_id)?.course_code;
     const course = courses.find(c => c.course_code === courseCode);
-    (groups[req.semester - 1] ??= []).push(course ?? {
-      // TODO: Update this placeholder
-      course_code: req.requirement_id,
-      course_name: req.requirement_id,
-      credits: 3,
-      description: "",
-      prerequisites: [],
+    (groups[req.semester - 1] ??= []).push({
+      ...(course ?? {
+        // TODO: Update this placeholder
+        course_code: req.requirement_id,
+        course_name: req.requirement_id,
+        credits: 3,
+        description: "",
+        prerequisites: [],
+      }),
+      requirement_id: req.requirement_id,
+      display_name: req.display_name,
     });
     return groups;
   }, result);

@@ -39,6 +39,7 @@
       courseCode={course.course_code}
       credits={course.credits}
       status={getCourseStatus(course.course_code)}
+      displayName={course.display_name}
       bind:showDetailsModal={showDetailsModal}
       bind:color={semesterColor}
     />

@@ -3,6 +3,7 @@
 
   let {
     courseCode,
+    displayName,
     credits,
     status,
     showDetailsModal = $bindable(),
@@ -17,7 +18,7 @@
 </script>
 
 <button
-  class="relative border-2 border-[#1d1d1d] rounded-2xl flex items-center justify-center p-4 bg-[#2b2b2b] text-white cursor-pointer w-33 overflow-clip"
+  class="relative border-2 border-[#1d1d1d] rounded-2xl flex items-center justify-center p-4 bg-[#2b2b2b] text-white cursor-pointer h-16 w-33 truncate"
   onclick={() => showDetailsModal = !showDetailsModal}
   style:border-color={color}
 >
@@ -34,6 +35,6 @@
       <CircleDashed size={16} aria-hidden="true" />
     </span>
   {/if}
-  {courseCode}
+  {displayName || courseCode}
   <span class="font-extralight absolute bottom-0 right-2">{credits}</span>
 </button>
