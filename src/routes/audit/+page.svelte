@@ -3,6 +3,10 @@
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
 	import { fetchCoursesForPlan, shellFunctionForPDFCreator } from "../../utils"
+	import { fetchCoursesForPlan } from "../../utils"
+	import { students } from "../../assets/data/student.json";
+	import { student_courses } from "../../assets/data/student_courses.json";
+	import { requirement_course } from "../../assets/data/requirement_course.json";
 
 	let gpa = $state(3.14);
 	let showDetailsModal = $state(false);
@@ -12,6 +16,7 @@
 	const buttonStyle = "rounded-2xl border-2 border-[#1d1d1d] bg-[#2b2b2b] px-3 py-1";
 	const params = new URLSearchParams(window.location.search);
 	let plan_code = $state(params.get("plan_code") ?? "BSCS");
+	const student = students[0];
 	let currentPlan = $derived(fetchCoursesForPlan(plan_code));
 	let totalCredits = $derived(currentPlan.flat().reduce((t, c) => t + c.credits, 0));
 </script>
@@ -51,7 +56,14 @@
 	<section class="flex gap-4 overflow-x-scroll grow px-4">
 		<!-- Body -->
 		{#each currentPlan as semester, i}
-			<Semester courses={semester} label={`S${i + 1}`} bind:showDetailsModal={showDetailsModal} />
+			<Semester
+				courses={semester}
+				label={`S${i + 1}`}
+				{student}
+				{student_courses}
+				{requirement_course}
+				bind:showDetailsModal={showDetailsModal}
+			/>
 		{/each}
 	</section>
 </main>
