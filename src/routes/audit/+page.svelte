@@ -2,7 +2,7 @@
 	import { CircleX } from "@lucide/svelte";
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
-	import { fetchCoursesForPlan } from "../../utils"
+	import { fetchCoursesForPlan, shellFunctionForPDFCreator } from "../../utils"
 
 	let gpa = $state(3.14);
 	let showDetailsModal = $state(false);
@@ -33,6 +33,9 @@
 		</div>
 		<div class="absolute right-0">
 			<!-- Header Right Content -->
+			<button class={buttonStyle} onclick={shellFunctionForPDFCreator}>
+				Export PDF
+			</button>
 			<button class={buttonStyle} onclick={() => showFiltersModal = !showFiltersModal}>
 				Filter
 			</button>
