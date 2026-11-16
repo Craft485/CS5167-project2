@@ -53,7 +53,6 @@
 	</section>
 </main>
 
-<!-- TODO: Info and filter panels should be setup similar to the details pane below -->
 {#if showDetailsModal}
 	<section class="flex justify-center items-center absolute z-5 inset-0 bg-[#181818]/50 text-white">
 		<div class="relative w-[50%] h-[50%] border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
@@ -61,6 +60,30 @@
 				<CircleX color="red" onclick={() => showDetailsModal = !showDetailsModal} />
 			</span>
 			<!-- TODO: List out detailed information about a course including description, full name, credits, coursecode, and any prereqs -->
+			Hello world
+		</div>
+	</section>
+{/if}
+
+{#if showFiltersModal}
+	<section class="flex justify-center items-center absolute z-5 inset-0 bg-[#181818]/50 text-white">
+		<div class="relative w-[50%] h-[50%] border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
+			<span class="absolute top-2 right-2 cursor-pointer">
+				<CircleX color="red" onclick={() => showFiltersModal = !showFiltersModal} />
+			</span>
+			<!-- TODO: Enable user to filter what courses are shown via their status, course code, course name, credits (ie >= x), etc. -->
+			Hello world
+		</div>
+	</section>
+{/if}
+
+{#if showInfo}
+	<section class="flex justify-center items-center absolute z-5 inset-0 bg-[#181818]/50 text-white">
+		<div class="relative w-[50%] h-[50%] border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
+			<span class="absolute top-2 right-2 cursor-pointer">
+				<CircleX color="red" onclick={() => showInfo = !showInfo} />
+			</span>
+			<!-- TODO: Show general information about the tool and its capabilites -->
 			Hello world
 		</div>
 	</section>
