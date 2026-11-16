@@ -1,22 +1,32 @@
 <script>
+	import {
+		fetchCoursesForPlan,
+		getCoursesToSatisfyRequirement,
+		getRequirementFromKey,
+		shellFunctionForPDFCreator,
+	} from "../../utils";
 	import { CircleX } from "@lucide/svelte";
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
-	import { fetchCoursesForPlan, shellFunctionForPDFCreator } from "../../utils"
 	import { students } from "../../assets/data/student.json";
 	import { student_courses } from "../../assets/data/student_courses.json";
 	import { requirement_course } from "../../assets/data/requirement_course.json";
+	import DetailsPane from "../../components/DetailsPane.svelte";
 
 	let gpa = $state(3.14);
 	let showDetailsModal = $state(false);
 	let showFiltersModal = $state(false);
 	let showInfo = $state(false);
-
+	
 	const buttonStyle = "rounded-2xl border-2 border-[#1d1d1d] bg-[#2b2b2b] px-3 py-1";
 	const params = new URLSearchParams(window.location.search);
 	let plan_code = $state(params.get("plan_code") ?? "BSCS");
 	const student = students[0];
 	let currentPlan = $derived(fetchCoursesForPlan(plan_code));
+	// For electives, the course_code field will be the requirement id, otherwise its as you would expect
+	let currentFocusId = $derived(currentPlan[0][0].course_code);
+	let currentFocusRequirement = $derived(getRequirementFromKey(currentFocusId));
+	let currentFocusRequirementCourseList = $derived(getCoursesToSatisfyRequirement(currentFocusRequirement?.requirement_id ?? ""));
 	const semesterSeasons = ["FA", "SP", "SU"];
 	const semesterLabel = (/** @type {number} */index) => {
 		const year = 2023 + Math.floor((index + 2) / 3);
@@ -67,6 +77,7 @@
 				{student_courses}
 				{requirement_course}
 				bind:showDetailsModal={showDetailsModal}
+				bind:currentFocusId={currentFocusId}
 			/>
 		{/each}
 	</section>
@@ -74,12 +85,14 @@
 
 {#if showDetailsModal}
 	<section class="flex justify-center items-center absolute z-5 inset-0 bg-[#181818]/50 text-white">
-		<div class="relative w-[50%] h-[50%] border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
+		<div class="relative w-[50%] min-h-[50%] max-h-[80%] overflow-y-scroll border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
 			<span class="absolute top-2 right-2 cursor-pointer">
 				<CircleX color="red" onclick={() => showDetailsModal = !showDetailsModal} />
 			</span>
 			<!-- TODO: List out detailed information about a course including description, full name, credits, coursecode, and any prereqs -->
-			Hello world
+			{#if currentFocusRequirement}
+				<DetailsPane requirement={currentFocusRequirement} courses={currentFocusRequirementCourseList} />
+			{/if}
 		</div>
 	</section>
 {/if}
