@@ -80,6 +80,8 @@ export function getPDFData(courses, student_courses, students, student_m_number)
   const currentCourses     = student_record.filter(c => c.status === "in_progress");
   const outstandingCourses = student_record.filter(c => c.status === "not_started");
 
+  console.log("I have reached the end of the first function");
+
   createPDF(completedCourses, currentCourses, outstandingCourses, student_info);
 }
 
@@ -218,5 +220,12 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
     y = doc.lastAutoTable.finalY + 12;
   });
 
+  console.log("I have reached the end of the function");
+
   doc.save(`Academic Advisement Report - ${student_info.name}.pdf`);
+}
+
+export function shellFunctionForPDFCreator() {
+
+  getPDFData(courses, student_courses, students, "12345678");
 }
