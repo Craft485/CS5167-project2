@@ -535,6 +535,202 @@
       "credits": 3,
       "description": "Second of two semester laboratory series in which students create a significant product capitalizing on their prior four years of electrical/computer engineering education. Completion of detailed design and implementation of project. - Prerequisite Definition: To take this course you must: Be enrolled in the following Plan CMPE-BSCOM.",
       "prerequisites": []
+    },
+    {
+      "course_code": "ANTH1101",
+      "course_name": "Cultural Anthropology",
+      "credits": 3,
+      "description": "An introduction to cultural anthropology, examining how societies organize family, belief, language, economy, and community across the world.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "PHIL1001",
+      "course_name": "Introduction to Ethics",
+      "credits": 3,
+      "description": "An introduction to ethical reasoning through questions about responsibility, fairness, rights, and the choices people make in public and private life.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "HIST1102",
+      "course_name": "World Civilizations",
+      "credits": 3,
+      "description": "A survey of major world civilizations and the cultural, political, and economic connections that shaped them over time.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "SOCI1101",
+      "course_name": "Social Problems and Public Policy",
+      "credits": 3,
+      "description": "Examines how social institutions and public policy shape issues such as inequality, education, health, and work.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "ECON1001",
+      "course_name": "Principles of Microeconomics",
+      "credits": 3,
+      "description": "Introduces consumer and firm decision-making, markets, prices, competition, and the effects of public policy on economic choices.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "COMM2080",
+      "course_name": "Intercultural Communication",
+      "credits": 3,
+      "description": "Studies communication across cultural contexts, including identity, language, collaboration, and strategies for understanding difference.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "CS5130",
+      "course_name": "Introduction to Machine Learning",
+      "credits": 3,
+      "description": "Introduces supervised and unsupervised learning, model evaluation, feature design, and practical applications of machine learning.",
+      "prerequisites": ["CS2028C", "STAT2037"]
+    },
+    {
+      "course_code": "CS5140",
+      "course_name": "Computer Graphics",
+      "credits": 3,
+      "description": "Covers the mathematical and computational foundations of computer graphics, including geometric transformations, rendering, and interactive visual applications.",
+      "prerequisites": ["CS2028C", "MATH2076"]
+    },
+    {
+      "course_code": "ART1001",
+      "course_name": "Art and Society",
+      "credits": 3,
+      "description": "Explores visual art across periods and cultures, with attention to interpretation, materials, and the relationship between art and society.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "PSYC1001",
+      "course_name": "Introduction to Psychology",
+      "credits": 3,
+      "description": "An overview of human behavior and mental processes, including learning, memory, development, social behavior, and research methods.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "CS5150",
+      "course_name": "Information Security",
+      "credits": 3,
+      "description": "Examines security principles for computing systems, including threat modeling, access control, cryptography concepts, and secure software practices.",
+      "prerequisites": ["CS2028C"]
+    },
+    {
+      "course_code": "CS5160",
+      "course_name": "Data Mining and Knowledge Discovery",
+      "credits": 3,
+      "description": "Introduces methods for discovering patterns in data, including classification, clustering, association analysis, and responsible evaluation of results.",
+      "prerequisites": ["CS2028C", "STAT2037"]
+    },
+    {
+      "course_code": "MUSC1001",
+      "course_name": "Music and Culture",
+      "credits": 3,
+      "description": "Surveys musical traditions and listening practices, considering how music reflects and shapes culture, identity, and community.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "GEOG1001",
+      "course_name": "Human Geography",
+      "credits": 3,
+      "description": "Studies the spatial patterns of people, places, migration, cities, resources, and the cultural and economic forces that shape them.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "POLS1001",
+      "course_name": "American Government",
+      "credits": 3,
+      "description": "Introduces the institutions and processes of American government, including federalism, elections, public policy, and civic participation.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "LING1001",
+      "course_name": "Language, Culture, and Society",
+      "credits": 3,
+      "description": "Explores how language varies across communities and how it relates to culture, identity, social interaction, and power.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "EECE5050",
+      "course_name": "Digital Signal Processing",
+      "credits": 3,
+      "description": "Studies discrete-time signals and systems, transform methods, digital filtering, and implementation of signal-processing algorithms.",
+      "prerequisites": ["EECE3065", "MATH2063"]
+    },
+    {
+      "course_code": "EECE5060",
+      "course_name": "Wireless Communications",
+      "credits": 3,
+      "description": "Introduces wireless communication systems, modulation, channel effects, link design, and techniques for reliable transmission.",
+      "prerequisites": ["EECE3065"]
+    },
+    {
+      "course_code": "ENED3050",
+      "course_name": "Engineering Economics",
+      "credits": 3,
+      "description": "Applies economic analysis to engineering decisions, including cash-flow comparison, cost estimation, uncertainty, and project selection.",
+      "prerequisites": ["MATH1062"]
+    },
+    {
+      "course_code": "ENED4050",
+      "course_name": "Engineering Project Management",
+      "credits": 3,
+      "description": "Develops skills for planning and leading engineering projects, including scope, scheduling, budgeting, risk, teamwork, and stakeholder communication.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "RELS1001",
+      "course_name": "Religion in a Global Context",
+      "credits": 3,
+      "description": "Compares religious traditions and practices around the world and considers their roles in history, culture, and contemporary public life.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "HIST2100",
+      "course_name": "History of Science and Technology",
+      "credits": 3,
+      "description": "Examines the development of scientific ideas and technologies and their effects on societies, institutions, and everyday life.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "EECE5070",
+      "course_name": "Power Electronics",
+      "credits": 3,
+      "description": "Covers semiconductor switching devices and converter circuits used to control and transform electrical power in engineering systems.",
+      "prerequisites": ["EECE2070", "EECE3065"]
+    },
+    {
+      "course_code": "EECE5080",
+      "course_name": "VLSI Design",
+      "credits": 3,
+      "description": "Introduces very-large-scale integrated circuit design, including CMOS logic, circuit layout, timing, and design trade-offs.",
+      "prerequisites": ["EECE2060C", "EECE3026"]
+    },
+    {
+      "course_code": "ENED4060",
+      "course_name": "Engineering Leadership",
+      "credits": 3,
+      "description": "Builds professional skills for leading engineering teams, communicating across disciplines, resolving conflict, and making responsible decisions.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "ENTR3001",
+      "course_name": "Technology Entrepreneurship",
+      "credits": 3,
+      "description": "Explores how technical ideas become products and ventures through customer discovery, business models, intellectual property, and venture planning.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "PHIL2001",
+      "course_name": "Bioethics and Technology",
+      "credits": 3,
+      "description": "Uses ethical frameworks to examine social questions raised by emerging technologies, health, privacy, and scientific practice.",
+      "prerequisites": []
+    },
+    {
+      "course_code": "SOCI2100",
+      "course_name": "Technology and Society",
+      "credits": 3,
+      "description": "Analyzes how technologies shape social institutions, work, communication, inequality, and everyday life.",
+      "prerequisites": []
     }
   ]
 }

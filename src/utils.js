@@ -3,8 +3,8 @@ import { courses } from "./assets/data/course.json";
 import { requirements } from "./assets/data/requirement.json";
 import { plan_requirements } from "./assets/data/plan_requirement.json";
 import { requirement_course } from "./assets/data/requirement_course.json";
-import {students} from './assets/data/student.json';
-import {student_courses} from './assets/data/student_courses.json';
+import { students } from './assets/data/student.json';
+import { student_courses } from './assets/data/student_courses.json';
 import { jsPDF } from "jspdf";
 import autoTable from "jspdf-autotable";
 
@@ -19,15 +19,17 @@ export function fetchCoursesForPlan(plan_code) {
   /** @type {(typeof courses[number])[][]} */
   const result = [];
   const semesters = reqs.reduce((groups, req) => {
+    const isElective = req.display_name !== null;
     const courseCode = reqCourseMap.find(rc => rc.requirement_id === req.requirement_id)?.course_code;
     const course = courses.find(c => c.course_code === courseCode);
-    (groups[req.semester - 1] ??= []).push(course ?? {
-      // TODO: Update this placeholder
-      course_code: req.requirement_id,
-      course_name: req.requirement_id,
-      credits: 3,
-      description: "",
-      prerequisites: [],
+    (groups[req.semester - 1] ??= []).push({
+      ...((isElective || !course) ? {
+        course_code: req.requirement_id,
+        course_name: req.display_name ?? req.requirement_id,
+        credits: 3,
+        description: "",
+        prerequisites: [],
+      } : course),
     });
     return groups;
   }, result);
@@ -55,6 +57,37 @@ export function stringToHexCode(str) {
 }
 
 /**
+ * @param {string} key A string representing either the requirement id or course id 
+ */
+export function getRequirementFromKey(key) {
+  // FIXME: Need to account for both course code and actual req id
+  let result = requirements.find(req => req.requirement_id === key);
+  if (!result) {
+    // Perform alt lookup
+    const connection = requirement_course.find(con => con.course_code === key);
+    result = requirements.find(req => req.requirement_id === connection?.requirement_id);
+  }
+
+  return result;
+}
+
+/**
+ * @param {string} requirementId 
+ */
+export function getCoursesToSatisfyRequirement(requirementId) {
+  const courseCodes = requirement_course.filter(con => con.requirement_id === requirementId).map(c => c.course_code);
+  
+  return courses.filter(course => courseCodes.includes(course.course_code));
+}
+
+/**
+ * @param {string} courseCode 
+ */
+export function getRequirementIdFromCourseCode(courseCode) {
+  return requirement_course.find(connection => connection.course_code === courseCode)?.requirement_id
+}
+
+/**
  * Usage: getPDFData(courses, student_courses, students, "12345678")
  * 
  * @param {typeof courses} courses 
@@ -79,6 +112,8 @@ export function getPDFData(courses, student_courses, students, student_m_number)
   const completedCourses   = student_record.filter(c => c.status === "completed");
   const currentCourses     = student_record.filter(c => c.status === "in_progress");
   const outstandingCourses = student_record.filter(c => c.status === "not_started");
+
+  console.log("I have reached the end of the first function");
 
   createPDF(completedCourses, currentCourses, outstandingCourses, student_info);
 }
@@ -218,5 +253,12 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
     y = doc.lastAutoTable.finalY + 12;
   });
 
+  console.log("I have reached the end of the function");
+
   doc.save(`Academic Advisement Report - ${student_info.name}.pdf`);
+}
+
+export function shellFunctionForPDFCreator() {
+
+  getPDFData(courses, student_courses, students, "12345678");
 }

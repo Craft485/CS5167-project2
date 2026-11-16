@@ -7,6 +7,37 @@ Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 The advisement report page has been the result of many headaches for students.  Automatic sign outs, buttons with no purpose, impossible to find classes, there is no shortage of problems with the site.  We seek to fix that.
 ### Sketches
 (sketches go here)
+### Heuristic Assessment
+Using Jakob's 10 Usability Heuristics, we noted the following about the current degree audit page:
+1. Visibility of the System:
+  - Does not easily define what classes need to be taken
+  - No clear sign of where the user is in the course path
+2. Match Between System and the Real World
+  - Uses course numbers before names, some names are changed and not updated
+  - No buttons define what requirements are drop down menus
+  - No use of color to define what is done or not
+3. User Control and Freedom
+  - Buttons for different tasks have the same name but do not define what task they affect
+  - Redundant buttons that do nothing unless something else is done
+4. Consistency and Standards
+  - Courses that cannotg be applied twice appear at the very top of the site and not where they are really needed
+5. Error Prevention
+  - Pressing the favorite button locks the user out
+  - Mostly reading so no real errors are producable
+6. Recognition Rather than Recall
+  - What a user needs is off page at times and requires moving around the page
+  - Legend symbols are only at the top of the page and not described where they actually appear
+7. Flexibility and Efficiency
+  - No shortcuts offered
+  - Opens many tabs, sucking up resources and confusing users
+8. Aesthetic and Minimalist Design
+  - Only light mode is offered
+  - Too minimal, not enough imagery is shown to show how something works or is applied (ie the legend icons)
+9. Recognize, Diagnose, and Recover from Errors
+  - Not applicable as errors are very rare (apart from the favorite error which requires a re launch of the page)
+10. Help and Documentation
+  - Help is offered via advisors
+  - Little to no documentation 
 ### Implementation
 
 This project was implemented using Svelte, JavaScript, and CSS along with the following libraries:
@@ -46,8 +77,9 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 |---|---|
 | `semester` | `integer` |
 | `requirement_id` | `string` |
+| `display_name` | `string` |
 
-`src/assets/data/requirement.json` is a list of abstract requirements for a given plan. Requirements can be a course (in which case the requirement id should be the course code) or an elective (in which case the requirement should be a unique descriptive string in screaming snake case for the title of the elective, prepended with the plan code). The requirement ids must be unique. Each requirement also includes a semester field for the semester that the requirement is intended to be taken, this is represented as an integer that starts counting from 1.
+`src/assets/data/requirement.json` is a list of abstract requirements for a given plan. Requirements can be a course (in which case the requirement id should be the course code) or an elective (in which case the requirement should be a unique descriptive string in screaming snake case for the title of the elective, prepended with the plan code). The requirement ids must be unique. Each requirement also includes a semester field for the semester that the requirement is intended to be taken, this is represented as an integer that starts counting from 1. Elective requirements include a `display_name` field containing a concise, user-facing label for the elective slot. **The `display_name` field will be null for non-elective courses.**
 
 **`requirement_course.json`**
 | Column | Type |
@@ -90,8 +122,10 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 ### AI usage
 AI was used for creation of svg design mockups
 
-LLMs were also used for debugging and provided assistance with the implementation
+LLMs were also used for debugging and provided assistance with the implementation.
 - *NOTE: The bulk of the code written was still human made, LLMs were used as a time saving measure*
+
+LLMs were used to scrape and generate most of the mock data under `src/assets/data/`.
 
 ### Demo
 [Insert demo video]
