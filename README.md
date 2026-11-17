@@ -131,4 +131,4 @@ LLMs were used in the following capacities:
 - To scrape and generate most of the mock data under `src/assets/data/`.
 
 ### Demo
-[Insert demo video]
+Link: https://youtu.be/jLBgQclkTmc
