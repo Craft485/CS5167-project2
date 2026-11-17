@@ -8,6 +8,7 @@
 	import { CircleX } from "@lucide/svelte";
 	import PlanSelect from "../../components/PlanSelect.svelte"
 	import Semester from "../../components/Semester.svelte";
+	import InfoPanel from "../../components/InfoPanel.svelte";
 	import { students } from "../../assets/data/student.json";
 	import { student_courses } from "../../assets/data/student_courses.json";
 	import { requirement_course } from "../../assets/data/requirement_course.json";
@@ -110,13 +111,5 @@
 {/if}
 
 {#if showInfo}
-	<section class="flex justify-center items-center absolute z-5 inset-0 bg-[#181818]/50 text-white">
-		<div class="relative w-[50%] h-[50%] border-4 border-[#1d1d1d] bg-[#2b2b2b] rounded-xl p-4">
-			<span class="absolute top-2 right-2 cursor-pointer">
-				<CircleX color="red" onclick={() => showInfo = !showInfo} />
-			</span>
-			<!-- TODO: Show general information about the tool and its capabilites -->
-			Hello world
-		</div>
-	</section>
+	<InfoPanel onclose={() => showInfo = false} />
 {/if}
