@@ -123,6 +123,12 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 
 `src/assets/data/student_courses.json` is a list of a student's status and term for each requirement, with a grade when available. The M number identifies the student, and the requirement id identifies the requirement. The key for this table is a compound key made up of the M number and requirement id. A grade is null until one is available.
 
+#### Future work
+
+- Enable more complex filters for courses (ie expressions like "!MATH" to show all courses that are not under MATH)
+- Address one of the weaker assumptions for the data model: elective groups can be modeled recursively with requirements
+- Visually draw lines between courses based on their dependencies
+
 ### AI usage
 LLMs were used in the following capacities:
 - SVG renderings of sketches and design mockups
