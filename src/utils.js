@@ -95,7 +95,7 @@ export function getRequirementIdFromCourseCode(courseCode) {
  * @param {typeof students} students 
  * @param {string} student_m_number 
  */
-export function getPDFData(courses, student_courses, students, student_m_number) {
+export function getPDFData(courses, student_courses, students, student_m_number, credits) {
   const student_info = students.find(s => s.m_number === student_m_number);
 
   // Catalog lookup: course_code -> course info
@@ -109,13 +109,14 @@ export function getPDFData(courses, student_courses, students, student_m_number)
       ...(course_lookup.get(r.requirement_id) ?? {}),
     }));
 
-  const completedCourses   = student_record.filter(c => c.status === "completed");
+  const completedCourses   = student_record.filter(c => c.status === "completed" && c.grade != "F");
+  const failedCourses = student_record.filter(c => c.status ==="completed" && c.grade === "F");
   const currentCourses     = student_record.filter(c => c.status === "in_progress");
   const outstandingCourses = student_record.filter(c => c.status === "not_started");
 
   console.log("I have reached the end of the first function");
 
-  createPDF(completedCourses, currentCourses, outstandingCourses, student_info);
+  createPDF(completedCourses, currentCourses, outstandingCourses, student_info, failedCourses, credits);
 }
 
 /**
@@ -126,7 +127,7 @@ export function getPDFData(courses, student_courses, students, student_m_number)
  * @param {*} outstandingCourses 
  * @param {*} student_info 
  */
-function createPDF(completedCourses, currentCourses, outstandingCourses, student_info) {
+function createPDF(completedCourses, currentCourses, outstandingCourses, student_info, failedCourses, totalCredits) {
 
   const today = new Date().toLocaleDateString("en-US", {
   month: "2-digit",
@@ -149,7 +150,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
   const middleMargin = 35;
 
   doc.text(
-    ["Academic Advisement Report", `For ${student_info.name} prepared on ${today}`],
+    ["Academic Advisement Report", `For ${student_info.name} prepared on ${today}`, `Plan: ${student_info.plan_code}`],
     centerX,
     10,
     { align: "center" }
@@ -157,10 +158,6 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
   const completedCredits = completedCourses.reduce(
   (sum, c) => sum + (Number(c.credits) || 0), 0
   );
-
-  const minRequiredCredits = outstandingCourses.reduce(
-    (sum, c) => sum + (Number(c.credits) || 0), 0
-  ) + currentCourses.reduce((sum, c) => sum + (Number(c.credits) || 0), 0) + completedCredits;  // fill in from your plan data
 
   autoTable(doc, {
     startY: 25,
@@ -175,7 +172,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
     },
     body: [
       ["UCID:", String(student_info.m_number ?? ""), "Completed Credit Hours:", String(completedCredits)],
-      ["GPA:",  String(student_info.gpa ?? ""),      "Minimum Required Credit Hours:", String(minRequiredCredits)],
+      ["GPA:",  String(student_info.gpa ?? ""),      "Minimum Required Credit Hours:", String(totalCredits)],
     ],
   });
 
@@ -199,6 +196,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
     {
       title: "Current Courses",
       courses: currentCourses,
+      hideIfEmpty: true,
       columns: [
         { header: "Course ID",   get: id },
         { header: "Course Name", get: name },
@@ -207,8 +205,21 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
       ],
     },
     {
+      title: "Failed Courses",
+      courses: failedCourses,
+      hideIfEmpty: true,
+      columns: [
+        { header: "Course ID",   get: id },
+        { header: "Course Name", get: name },
+        { header: "Credits",     get: credits },
+        { header: "Grade",       get: grade },
+        { header: "Term Taken",  get: term },
+      ],
+    },
+    {
       title: "Outstanding Courses",
       courses: outstandingCourses,
+      hideIfEmpty: true,
       columns: [
         { header: "Course ID",   get: id },
         { header: "Course Name", get: name },
@@ -219,6 +230,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
     {
       title: "Completed Courses",
       courses: completedCourses,
+      hideIfEmpty: true,
       columns: [
         { header: "Course ID",   get: id },
         { header: "Course Name", get: name },
@@ -227,7 +239,7 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
         { header: "Term Taken",  get: term },
       ],
     },
-  ];
+  ].filter(section => !section.hideIfEmpty || section.courses.length > 0);;
 
   sections.forEach(({ title, courses, columns }) => {
     if (y > pageHeight - 40) {
@@ -258,7 +270,19 @@ function createPDF(completedCourses, currentCourses, outstandingCourses, student
   doc.save(`Academic Advisement Report - ${student_info.name}.pdf`);
 }
 
-export function shellFunctionForPDFCreator() {
+export function shellFunctionForPDFCreator(plan_code, credits) {
 
-  getPDFData(courses, student_courses, students, "12345678");
+  console.log(plan_code);
+
+  if(plan_code == "BSCS") {
+
+    getPDFData(courses, student_courses, students, "12345678", credits);
+  }
+
+  else {
+
+      getPDFData(courses, student_courses, students, "11111111", credits);
+
+  }
+
 }

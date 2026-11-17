@@ -4,7 +4,15 @@
             "name": "Alex VanBibber",
             "m_number": "12345678",
             "gpa": "5.0",
-            "plan_code": "BSCS",
+            "plan_code": "BSCE",
+            "semester": "3" 
+        },
+
+        {
+            "name": "Straight F Student",
+            "m_number": "11111111",
+            "gpa": "0.2",
+            "plan_code": "BSCE",
             "semester": "3" 
         }
     ]

@@ -85,7 +85,7 @@
 		</div>
 		<div class="absolute right-0">
 			<!-- Header Right Content -->
-			<button class={buttonStyle} onclick={shellFunctionForPDFCreator}>
+			<button class={buttonStyle} onclick={shellFunctionForPDFCreator(plan_code, totalCredits)}>
 				Export PDF
 			</button>
 			<button class={buttonStyle} onclick={() => showFiltersModal = !showFiltersModal}>
