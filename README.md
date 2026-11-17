@@ -2,6 +2,8 @@
 
 Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 
+[Hosted on Vercel](cs-5167-project2.vercel.app)
+
 ## Advisement Report Page
 ### The Idea
 The advisement report page has been the result of many headaches for students.  Automatic sign outs, buttons with no purpose, impossible to find classes, there is no shortage of problems with the site.  We seek to fix that.
@@ -52,6 +54,8 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 
 - All cohorts follow the same plan
 - All columns are non-null unless specified
+- Elective groups are not a thing
+  - This is to simplify the data model for the purposes of this project, however this is very doable just more time consuming
 
 **`plan.json`**
 | Column | Type |
@@ -120,12 +124,11 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 `src/assets/data/student_courses.json` is a list of a student's status and term for each requirement, with a grade when available. The M number identifies the student, and the requirement id identifies the requirement. The key for this table is a compound key made up of the M number and requirement id. A grade is null until one is available.
 
 ### AI usage
-AI was used for creation of svg design mockups
-
-LLMs were also used for debugging and provided assistance with the implementation.
-- *NOTE: The bulk of the code written was still human made, LLMs were used as a time saving measure*
-
-LLMs were used to scrape and generate most of the mock data under `src/assets/data/`.
+LLMs were used in the following capacities:
+- SVG renderings of sketches and design mockups
+- Debugging and providing assistance with the implementation
+  - *NOTE: The bulk of the code written was still human made, LLMs were used as a time saving measure*
+- To scrape and generate most of the mock data under `src/assets/data/`.
 
 ### Demo
 [Insert demo video]
