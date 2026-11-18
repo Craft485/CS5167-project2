@@ -5,47 +5,63 @@ Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 [Hosted on Vercel](cs-5167-project2.vercel.app)
 
 ## Advisement Report Page
+
 ### The Idea
 The advisement report page has been the result of many headaches for students.  Automatic sign outs, buttons with no purpose, impossible to find classes, there is no shortage of problems with the site.  We seek to fix that.
-### Sketches
-(sketches go here)
+
 ### Heuristic Assessment
 Using Jakob's 10 Usability Heuristics, we noted the following about the current degree audit page:
 1. Visibility of the System:
-  - Does not easily define what classes need to be taken
-  - No clear sign of where the user is in the course path
+    - Does not easily define what classes need to be taken
+    - No clear sign of where the user is in the course path
 2. Match Between System and the Real World
-  - Uses course numbers before names, some names are changed and not updated
-  - No buttons define what requirements are drop down menus
-  - No use of color to define what is done or not
+    - Uses course numbers before names, some names are changed and not updated
+    - No buttons define what requirements are drop down menus
+    - No use of color to define what is done or not
 3. User Control and Freedom
-  - Buttons for different tasks have the same name but do not define what task they affect
-  - Redundant buttons that do nothing unless something else is done
+    - Buttons for different tasks have the same name but do not define what task they affect
+    - Redundant buttons that do nothing unless something else is done
 4. Consistency and Standards
-  - Courses that cannotg be applied twice appear at the very top of the site and not where they are really needed
+    - Courses that cannot be applied twice appear at the very top of the site and not where they are really needed
 5. Error Prevention
-  - Pressing the favorite button locks the user out
-  - Mostly reading so no real errors are producable
+    - Pressing the favorite button locks the user out
+    - Mostly reading so no real errors are producable
 6. Recognition Rather than Recall
-  - What a user needs is off page at times and requires moving around the page
-  - Legend symbols are only at the top of the page and not described where they actually appear
+    - What a user needs is off page at times and requires moving around the page
+    - Legend symbols are only at the top of the page and not described where they actually appear
 7. Flexibility and Efficiency
-  - No shortcuts offered
-  - Opens many tabs, sucking up resources and confusing users
+    - No shortcuts offered
+    - Opens many tabs, sucking up resources and confusing users
 8. Aesthetic and Minimalist Design
-  - Only light mode is offered
-  - Too minimal, not enough imagery is shown to show how something works or is applied (ie the legend icons)
+    - Only light mode is offered
+    - Too minimal, not enough imagery is shown to show how something works or is applied (ie the legend icons)
 9. Recognize, Diagnose, and Recover from Errors
-  - Not applicable as errors are very rare (apart from the favorite error which requires a re launch of the page)
+    - Not applicable as errors are very rare (apart from the favorite error which requires a re launch of the page)
 10. Help and Documentation
-  - Help is offered via advisors
-  - Little to no documentation 
+    - Help is offered via advisors
+    - Little to no documentation 
+
+### Sketches
+
+Initial Sketch:
+![Initial sketch](https://cdn.discordapp.com/attachments/1572327759496216786/1572398293013758032/ui_project_2_sketch_1.jpg?ex=6afe3986&is=6afce806&hm=2ae93af4c0f649aa3345dace9ba288d24adee1a820af8f7071c2c9cb5484c69e&)
+
+SVG Rendering of Initial Sketch:
+![SVG Rendering of initial sketch](https://cdn.discordapp.com/attachments/1572327759496216786/1572398292644401292/87a8dd77-c6d7-4635-be84-0c610e167cbb.png?ex=6afe3986&is=6afce806&hm=68e4e0d5e966d01bf4a7240c9faaf219b906d68498d57a140e05b391707e36fb&)
+
+Sketch during discussions of alternative designs and expansions:
+![alternative sketch](https://media.discordapp.net/attachments/1572327759496216786/1572389396706103356/20261116_135850.jpg?ex=6afe313d&is=6afcdfbd&hm=f7a592cfd3052ba2b05ae4c368218522687796abbf8608a529df7fafa73c71b5&format=webp&width=768&height=1024)
+![second series of alt sketching](https://cdn.discordapp.com/attachments/803318093601308734/1572404397802266765/image.png?ex=6afe3f36&is=6afcedb6&hm=af03eddeae6d4b8c3eabfb28d381b14f912dd5957528fc25c7f6d22d9de7473f&)
+
+Sketch laying out PDF export organization
+![PDF sketch](https://media.discordapp.net/attachments/1572327759496216786/1572389397070876845/20261116_135828.jpg?ex=6afe313d&is=6afcdfbd&hm=a7a2ec870cdc21748b8d8bdfd2de0d5e543880f7538268dfa9a953d9e8436892&format=webp&width=768&height=1024)
+
 ### Implementation
 
 This project was implemented using Svelte, JavaScript, and CSS along with the following libraries:
 - *tailwindcss*: for css utility classes
 - *jspdf and jspdf-autotable*: for exporting pdf data
-- *lucide*: an standard icon library
+- *lucide*: a standard icon component library
 - *sveltekit*: page routing
 
 #### Data Model:
@@ -63,7 +79,7 @@ This project was implemented using Svelte, JavaScript, and CSS along with the fo
 | `plan_code` | `string` |
 | `display` | `string` |
 
-`src/assets/data/plan.json` is a list of plans. A plan currently only consists of a plan code. The plan code must be unique.
+`src/assets/data/plan.json` is a list of plans. A plan currently only consists of a plan code and a display name to show to the user. The plan code must be unique.
 
 **`course.json`**
 | Column | Type |
