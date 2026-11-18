@@ -2,7 +2,7 @@
 
 Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 
-[Hosted on Vercel](cs-5167-project2.vercel.app)
+[Hosted on Vercel](https://cs-5167-project2.vercel.app)
 
 ## Advisement Report Page
 
