@@ -9,6 +9,8 @@ Group Members: Andrea Dall’Ara, Colin Davis, Jason Bellerjeau, Alex VanBibber
 ### The Idea
 The advisement report page has been the result of many headaches for students.  Automatic sign outs, buttons with no purpose, impossible to find classes, there is no shortage of problems with the site.  We seek to fix that.
 
+Our interface provides a grid layout of courses, sorted into semesters. This enables a student to more easily parse what courses are in their degree and get a rough idea of their progress. We also provide a set of filters in order to get a glimpse at more specific data such as what courses a student hasn't taken. Additionally, a student can directly click on a requirement/course and view detailed information regardging its description, prerequisites, and which courses can count towards the requirement (for electives).
+
 ### Heuristic Assessment
 Using Jakob's 10 Usability Heuristics, we noted the following about the current degree audit page:
 1. Visibility of the System:
