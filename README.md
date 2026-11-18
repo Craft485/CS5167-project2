@@ -56,6 +56,18 @@ Sketch during discussions of alternative designs and expansions:
 Sketch laying out PDF export organization
 ![PDF sketch](https://media.discordapp.net/attachments/1572327759496216786/1572389397070876845/20261116_135828.jpg?ex=6afe313d&is=6afcdfbd&hm=a7a2ec870cdc21748b8d8bdfd2de0d5e543880f7538268dfa9a953d9e8436892&format=webp&width=768&height=1024)
 
+### Interview Questions
+
+1. Have you ever used the advisement report on catalyst?
+
+2. What do you remember about using Catalyst?
+
+3. Did you accomplish your goal for accessing the Advisement Report?
+
+4. How would you rate Catalyst out of 5 stars?
+
+5. Any other comments about Catalyst?
+
 ### Implementation
 
 This project was implemented using Svelte, JavaScript, and CSS along with the following libraries:
